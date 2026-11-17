@@ -1,0 +1,1779 @@
+{
+  "generated_at": "2026-11-17",
+  "items": [
+    {
+      "title": "The Second Survivability Problem",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "seed",
+      "reason": "No Open Library work has this exact title, and Library of Congress book searches for the title and for author Francis Bothwell did not return a matching book. A keyless Google Books lookup could not be completed because the API returned HTTP 429 (daily quota exceeded), so Google Books neither confirms nor rules out a record. Nothing was invented for the published catalogue.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"The Second Survivability Problem\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Second%20Survivability%20Problem%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "title:\"Second Survivability Problem\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Second%20Survivability%20Problem%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "\"Second Survivability Problem\"",
+          "url": "https://openlibrary.org/search.json?q=%22Second%20Survivability%20Problem%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "title:survivability bitcoin",
+          "url": "https://openlibrary.org/search.json?q=title%3Asurvivability%20bitcoin&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=4; first hits: How to survive  in the Bitcoin Jungle (2018); Surviving The Great Reset (2021); Libra Coin Revolution (2019)"
+        },
+        {
+          "source": "openlibrary",
+          "query": "author:\"Francis Bothwell\"",
+          "url": "https://openlibrary.org/search.json?q=author%3A%22Francis%20Bothwell%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "author:\"Francis S. Bothwell\"",
+          "url": "https://openlibrary.org/search.json?q=author%3A%22Francis%20S.%20Bothwell%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "\"Proof of Work Defense\"",
+          "url": "https://openlibrary.org/search.json?q=%22Proof%20of%20Work%20Defense%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "Bothwell bitcoin",
+          "url": "https://openlibrary.org/search.json?q=Bothwell%20bitcoin&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; no works returned"
+        },
+        {
+          "source": "openlibrary",
+          "query": "title:\"Softwar\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Softwar%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=28827; first hits: Software Engineering (1982); The Mythical Man-Month (1974); Design Patterns (1995)"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "\"The Second Survivability Problem\"",
+          "url": "https://www.loc.gov/books/?q=%22The%20Second%20Survivability%20Problem%22&fo=json&c=20&sp=1",
+          "result": "no book records returned"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "\"Second Survivability Problem\"",
+          "url": "https://www.loc.gov/books/?q=%22Second%20Survivability%20Problem%22&fo=json&c=20&sp=1",
+          "result": "no book records returned"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "\"Survivability Problem\"",
+          "url": "https://www.loc.gov/books/?q=%22Survivability%20Problem%22&fo=json&c=20&sp=1",
+          "result": "1 hits, none titled The Second Survivability Problem; examples: A digest of educational sociology,"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "Bothwell \"Proof of Work\"",
+          "url": "https://www.loc.gov/books/?q=Bothwell%20%22Proof%20of%20Work%22&fo=json&c=20&sp=1",
+          "result": "73 hits, none titled The Second Survivability Problem; examples: California - White Pages and Yellow Pages - Colton - October 1949 thru September 1951; Iowa - White and Yellow Pages - Council Bluffs - 6/1961 to 8/1963; California - White Pages and Yellow Pages - Santa Clara County - October 1938 thru October 1941"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "\"Francis Bothwell\"",
+          "url": "https://www.loc.gov/books/?q=%22Francis%20Bothwell%22&fo=json&c=20&sp=1",
+          "result": "5 hits, none titled The Second Survivability Problem; examples: The soldier and the sorceress;; [(Vol. 17, MOT-ORM)] Werner encyclopædia. A standard work of reference in art, literature, science, history, geography, commerce, biography, discovery and invention ...; California - White Pages - San Francisco - September 1966"
+        },
+        {
+          "source": "library_of_congress",
+          "query": "\"Francis S. Bothwell\"",
+          "url": "https://www.loc.gov/books/?q=%22Francis%20S.%20Bothwell%22&fo=json&c=20&sp=1",
+          "result": "3 hits, none titled The Second Survivability Problem; examples: Macbeth, King Lear & contemporary history; being a study of the relations of the play of Macbeth to the personal history of James I, the Darnley murder and the St. Bartholomew massacre and also of King Lear as symbolic mythology,; Connecticut - White Pages and Yellow Pages - Hartford - January 1940 thru November 1940; Colorado - White Pages and Yellow Pages - Denver - Summer 1937 thru Winter 1937 / 1938"
+        },
+        {
+          "source": "google_books",
+          "query": "intitle:\"The Second Survivability Problem\"",
+          "url": "https://www.googleapis.com/books/v1/volumes?q=intitle%3A%22The%20Second%20Survivability%20Problem%22&maxResults=5&printType=books",
+          "result": "HTTP 429: keyless Google Books API daily quota exceeded; the title was not looked up."
+        }
+      ]
+    },
+    {
+      "title": "Principles of Economics",
+      "authors": [
+        "Saifedean Ammous"
+      ],
+      "year": 2023,
+      "isbn": "9798987975572",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9798987975572 (Principles of Economics) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798987975572",
+          "url": "https://openlibrary.org/isbn/9798987975572.json",
+          "result": "Edition retrieved (Principles of Economics); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Broken Money",
+      "authors": [
+        "Lyn Alden"
+      ],
+      "year": 2023,
+      "isbn": "9798988666301",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9798988666301 (Broken Money) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798988666301",
+          "url": "https://openlibrary.org/isbn/9798988666301.json",
+          "result": "Edition retrieved (Broken Money); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Hidden Repression",
+      "authors": [
+        "Alex Gladstein"
+      ],
+      "year": 2023,
+      "isbn": "9798987636404",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9798987636404 (Hidden Repression) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798987636404",
+          "url": "https://openlibrary.org/isbn/9798987636404.json",
+          "result": "Edition retrieved (Hidden Repression); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Development Philosophy",
+      "authors": [
+        "Linnéa Rosenbaum",
+        "Kalle Rosenbaum"
+      ],
+      "year": 2024,
+      "isbn": "9789916723593",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916723593 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916723593",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916723593",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Price of Tomorrow",
+      "authors": [
+        "Jeff Booth"
+      ],
+      "year": 2020,
+      "isbn": "9781999257415",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781999257415 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781999257415",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781999257415",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin: Everything Divided by 21 Million",
+      "authors": [
+        "Knut Svanholm"
+      ],
+      "year": 2022,
+      "isbn": "9789916697207",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916697207 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916697207",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916697207",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "American Kingpin",
+      "authors": [
+        "Nick Bilton"
+      ],
+      "year": 2017,
+      "isbn": "9780753548004",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780753548004 (American Kingpin) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780753548004",
+          "url": "https://openlibrary.org/isbn/9780753548004.json",
+          "result": "Edition retrieved (American Kingpin); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Number Go Up",
+      "authors": [
+        "Zeke Faux"
+      ],
+      "year": 2023,
+      "isbn": "9780593443828",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9780593443828 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780593443828",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9780593443828",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Treasury of Michael Saylor",
+      "authors": [
+        "Anil Patel"
+      ],
+      "year": null,
+      "isbn": "9798891705227",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798891705227 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798891705227",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798891705227",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Is For You",
+      "authors": [
+        "Bit By Bitcoin"
+      ],
+      "year": 2026,
+      "isbn": "9798255555154",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798255555154 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798255555154",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798255555154",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Daily Seed",
+      "authors": [
+        "Daniel Howell"
+      ],
+      "year": 2024,
+      "isbn": "9780998748122",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9780998748122 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780998748122",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9780998748122",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Blood of the Bourgeoisie",
+      "authors": [
+        "Michael R. Sullivan"
+      ],
+      "year": 2025,
+      "isbn": "9798985929638",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798985929638 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798985929638",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798985929638",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Stolguard Incident",
+      "authors": [
+        "Lyn Alden"
+      ],
+      "year": 2026,
+      "isbn": "9798988666363",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9798988666363 (Stolguard Incident) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798988666363",
+          "url": "https://openlibrary.org/isbn/9798988666363.json",
+          "result": "Edition retrieved (Stolguard Incident); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "21 Futures",
+      "authors": [
+        "Philip Charter"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"21 Futures\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%2221%20Futures%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=1; first title=Babylon revisited"
+        }
+      ]
+    },
+    {
+      "title": "Digital Cash",
+      "authors": [
+        "Finn Brunton"
+      ],
+      "year": 2019,
+      "isbn": "9780691209166",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780691209166 (Digital Cash) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780691209166",
+          "url": "https://openlibrary.org/isbn/9780691209166.json",
+          "result": "Edition retrieved (Digital Cash); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Wildcat Currency",
+      "authors": [
+        "Edward Castronova"
+      ],
+      "year": 2014,
+      "isbn": "9780300187410",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780300187410 (Wildcat Currency) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780300187410",
+          "url": "https://openlibrary.org/isbn/9780300187410.json",
+          "result": "Edition retrieved (Wildcat Currency); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Mastering Blockchain",
+      "authors": [
+        "Ankur Daharwal",
+        "Imran Bashir",
+        "Pranav Burnwal"
+      ],
+      "year": 2017,
+      "isbn": "9781788838672",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781788838672 (Mastering Blockchain) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781788838672",
+          "url": "https://openlibrary.org/isbn/9781788838672.json",
+          "result": "Edition retrieved (Mastering Blockchain); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Silk Road",
+      "authors": [
+        "Eileen Ormsby"
+      ],
+      "year": 2014,
+      "isbn": "9781743518113",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781743518113 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781743518113",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781743518113",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Missing Cryptoqueen",
+      "authors": [
+        "Jamie Bartlett"
+      ],
+      "year": 2022,
+      "isbn": "9780306829185",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780306829185 (Missing Cryptoqueen) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780306829185",
+          "url": "https://openlibrary.org/isbn/9780306829185.json",
+          "result": "Edition retrieved (Missing Cryptoqueen); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "The Currency Cold War",
+      "authors": [
+        "David G. W. Birch"
+      ],
+      "year": 2020,
+      "isbn": "9781913019099",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781913019099 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781913019099",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781913019099",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Cloudmoney",
+      "authors": [
+        "Brett Scott"
+      ],
+      "year": 2022,
+      "isbn": "9780062936325",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780062936325 (Cloudmoney) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780062936325",
+          "url": "https://openlibrary.org/isbn/9780062936325.json",
+          "result": "Edition retrieved (Cloudmoney); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Softwar",
+      "authors": [
+        "Jason P. Lowery (Major)"
+      ],
+      "year": 2023,
+      "isbn": "9798371524188",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798371524188 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798371524188",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798371524188",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The UnCommunist Manifesto",
+      "authors": [
+        "Aleks Svetski",
+        "Mark Moss (Speaker)"
+      ],
+      "year": 2022,
+      "isbn": "9780578396309",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780578396309 (The UnCommunist Manifesto) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780578396309",
+          "url": "https://openlibrary.org/isbn/9780578396309.json",
+          "result": "Edition retrieved (The UnCommunist Manifesto); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "The Big Print",
+      "authors": [
+        "Lawrence Lepard"
+      ],
+      "year": 2024,
+      "isbn": "9798992242508",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798992242508 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798992242508",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798992242508",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Hidden Cost of Money",
+      "authors": [
+        "Sebastian Bunney"
+      ],
+      "year": 2023,
+      "isbn": "9781738934102",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781738934102 (Hidden Cost of Money) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781738934102",
+          "url": "https://openlibrary.org/isbn/9781738934102.json",
+          "result": "Edition retrieved (Hidden Cost of Money); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Great Chain of Numbers",
+      "authors": [
+        "Tim Swanson"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Great Chain of Numbers\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Great%20Chain%20of%20Numbers%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Bit by Bit",
+      "authors": [
+        "Jeffrey A. Tucker"
+      ],
+      "year": 2015,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Bit by Bit\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Bit%20by%20Bit%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=86; first title=Bit by bit"
+        }
+      ]
+    },
+    {
+      "title": "Red Team Blues",
+      "authors": [
+        "Cory Doctorow"
+      ],
+      "year": 2023,
+      "isbn": "9781804547755",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781804547755 (Red Team Blues) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781804547755",
+          "url": "https://openlibrary.org/isbn/9781804547755.json",
+          "result": "Edition retrieved (Red Team Blues); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Read Write Own",
+      "authors": [
+        "Chris Dixon"
+      ],
+      "year": 2024,
+      "isbn": "9780593731406",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780593731406 (Read Write Own) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780593731406",
+          "url": "https://openlibrary.org/isbn/9780593731406.json",
+          "result": "Edition retrieved (Read Write Own); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "The Infinite Machine",
+      "authors": [
+        "Camila Russo"
+      ],
+      "year": 2020,
+      "isbn": "9780062886149",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780062886149 (The Infinite Machine) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780062886149",
+          "url": "https://openlibrary.org/isbn/9780062886149.json",
+          "result": "Edition retrieved (The Infinite Machine); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Crypto Confidential",
+      "authors": [
+        "Nathaniel Eliason"
+      ],
+      "year": 2024,
+      "isbn": "9780593714041",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780593714041 (Crypto Confidential) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780593714041",
+          "url": "https://openlibrary.org/isbn/9780593714041.json",
+          "result": "Edition retrieved (Crypto Confidential); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Blockchain: Blueprint for a New Economy",
+      "authors": [
+        "Melanie Swan"
+      ],
+      "year": 2015,
+      "isbn": "9781491920459",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781491920459 (Blockchain) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781491920459",
+          "url": "https://openlibrary.org/isbn/9781491920459.json",
+          "result": "Edition retrieved (Blockchain); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "The Business Blockchain",
+      "authors": [
+        "William Mougayar"
+      ],
+      "year": 2016,
+      "isbn": "9781119300335",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781119300335 (Business Blockchain) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781119300335",
+          "url": "https://openlibrary.org/isbn/9781119300335.json",
+          "result": "Edition retrieved (Business Blockchain); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Blockchain Basics",
+      "authors": [
+        "Daniel Drescher"
+      ],
+      "year": 2017,
+      "isbn": "9781484226049",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781484226049 (Blockchain Basics) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781484226049",
+          "url": "https://openlibrary.org/isbn/9781484226049.json",
+          "result": "Edition retrieved (Blockchain Basics); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Mastering Monero",
+      "authors": [
+        "SerHack"
+      ],
+      "year": 2018,
+      "isbn": "9781731079961",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781731079961 (Mastering Monero) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781731079961",
+          "url": "https://openlibrary.org/isbn/9781731079961.json",
+          "result": "Edition retrieved (Mastering Monero); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Crypto Wars",
+      "authors": [
+        "Erica Stanford"
+      ],
+      "year": 2021,
+      "isbn": "9781398600706",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781398600706 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781398600706",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781398600706",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Blockchain Bubble or Revolution",
+      "authors": [
+        "Aditya Agashe",
+        "Parth Detroja",
+        "Neel Mehta"
+      ],
+      "year": 2019,
+      "isbn": "9780578528151",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780578528151 (Blockchain Bubble or Revolution) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780578528151",
+          "url": "https://openlibrary.org/isbn/9780578528151.json",
+          "result": "Edition retrieved (Blockchain Bubble or Revolution); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Praxeology",
+      "authors": [
+        "Knut Svanholm"
+      ],
+      "year": 2023,
+      "isbn": "9789916723074",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916723074 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916723074",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916723074",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Rise, Fall, and Reemergence of Bitcoin Treasury Companies",
+      "authors": [
+        "Mike Flaum"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"The Rise, Fall, and Reemergence of Bitcoin Treasury Companies\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Rise%2C%20Fall%2C%20and%20Reemergence%20of%20Bitcoin%20Treasury%20Companies%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "365 Days of Bitcoin",
+      "authors": [
+        "Bit By Bitcoin"
+      ],
+      "year": 2026,
+      "isbn": "9798192077061",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798192077061 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798192077061",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798192077061",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Gospel According to Bitcoin",
+      "authors": [
+        "Daniel Sherman",
+        "Jordan Bush"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"The Gospel According to Bitcoin\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Gospel%20According%20to%20Bitcoin%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "21 Futures: Financial Fallout",
+      "authors": [
+        "21 Futures (various)"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"21 Futures: Financial Fallout\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%2221%20Futures%3A%20Financial%20Fallout%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "The Internet of Money Volume Three",
+      "authors": [
+        "Andreas M. Antonopoulos"
+      ],
+      "year": 2019,
+      "isbn": "9781947910171",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781947910171 (The Internet of Money Volume Three) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781947910171",
+          "url": "https://openlibrary.org/isbn/9781947910171.json",
+          "result": "Edition retrieved (The Internet of Money Volume Three); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Digital Real Estate",
+      "authors": [
+        "Viktor Weber"
+      ],
+      "year": 2023,
+      "isbn": "9781138086272",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781138086272 (Digital Real Estate) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781138086272",
+          "url": "https://openlibrary.org/isbn/9781138086272.json",
+          "result": "Edition retrieved (Digital Real Estate); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "The Network State",
+      "authors": [
+        "Balaji Srinivasan"
+      ],
+      "year": 2022,
+      "isbn": "9780593713778",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9780593713778 (The Network State: How To Start a New Country) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9780593713778",
+          "url": "https://openlibrary.org/isbn/9780593713778.json",
+          "result": "Edition retrieved (The Network State: How To Start a New Country); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Generar Bitcoins",
+      "authors": [],
+      "year": 2021,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Generar Bitcoins\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Generar%20Bitcoins%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=1; first title=Generar Bitcoins"
+        }
+      ]
+    },
+    {
+      "title": "Blockhead!",
+      "authors": [],
+      "year": 2021,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Blockhead!\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Blockhead%21%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=131; first title=Blockhead"
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin mining for beginners",
+      "authors": [],
+      "year": 2014,
+      "isbn": "9781495317835",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL27293400W “Bitcoin mining for beginners” for ISBN 9781495317835. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781495317835",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781495317835",
+          "result": "Work /works/OL27293400W “Bitcoin mining for beginners” returned; subjects ['Electronic commerce', 'Electronic funds transfers', 'Banks and banking', 'Data processing', 'Currency question', 'Money'] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin, criptomonedas y blockchain",
+      "authors": [],
+      "year": 2018,
+      "isbn": "9788499986586",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL17876561W “Bitcoin, criptomonedas y blockchain” for ISBN 9788499986586. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788499986586",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788499986586",
+          "result": "Work /works/OL17876561W “Bitcoin, criptomonedas y blockchain” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "LA FILOSOF�A BITCOIN",
+      "authors": [],
+      "year": 2022,
+      "isbn": "9788418913839",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL35022243W “LA FILOSOF�A BITCOIN” for ISBN 9788418913839. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788418913839",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788418913839",
+          "result": "Work /works/OL35022243W “LA FILOSOF�A BITCOIN” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "QUE ES REALMENTE BITCOIN",
+      "authors": [],
+      "year": null,
+      "isbn": "9788415560661",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL34853760W “QUE ES REALMENTE BITCOIN” for ISBN 9788415560661. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788415560661",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788415560661",
+          "result": "Work /works/OL34853760W “QUE ES REALMENTE BITCOIN” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "Satoshi Nakamoto",
+      "authors": [
+        "Erasmus Cromwell-Smith"
+      ],
+      "year": 2025,
+      "isbn": "9798999622556",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9798999622556 (Satoshi Nakamoto) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798999622556",
+          "url": "https://openlibrary.org/isbn/9798999622556.json",
+          "result": "Edition retrieved (Satoshi Nakamoto); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Mining Heat Reuse",
+      "authors": [],
+      "year": 2025,
+      "isbn": "9788090925328",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL42780894W “Bitcoin Mining Heat Reuse” for ISBN 9788090925328. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788090925328",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788090925328",
+          "result": "Work /works/OL42780894W “Bitcoin Mining Heat Reuse” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin : guía completa de la moneda del futuro - 1. edición",
+      "authors": [],
+      "year": 2016,
+      "isbn": "9789587626032",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL19916391W “Bitcoin : guía completa de la moneda del futuro - 1. edición” for ISBN 9789587626032. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789587626032",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789587626032",
+          "result": "Work /works/OL19916391W “Bitcoin : guía completa de la moneda del futuro - 1. edición” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "The Crypto Book: How to Invest Safely in Bitcoin and Other Cryptocurrencies",
+      "authors": [
+        "Siam Kidd"
+      ],
+      "year": null,
+      "isbn": "9781473693340",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL45398696W “The Crypto Book: How to Invest Safely in Bitcoin and Other Cryptocurrencies” for ISBN 9781473693340. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781473693340",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781473693340",
+          "result": "Work /works/OL45398696W “The Crypto Book: How to Invest Safely in Bitcoin and Other Cryptocurrencies” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Digital Law",
+      "authors": [],
+      "year": 2026,
+      "isbn": "9791399037333",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL45140229W “Bitcoin Digital Law” for ISBN 9791399037333. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9791399037333",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9791399037333",
+          "result": "Work /works/OL45140229W “Bitcoin Digital Law” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "De las punto com al Bitcoin y las meme stocks",
+      "authors": [],
+      "year": 2022,
+      "isbn": "9788498753264",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL27719834W “De las punto com al Bitcoin y las meme stocks” for ISBN 9788498753264. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788498753264",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788498753264",
+          "result": "Work /works/OL27719834W “De las punto com al Bitcoin y las meme stocks” returned; subjects [] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin: The Honest Money",
+      "authors": [
+        "Alex von Frankenberg"
+      ],
+      "year": 2026,
+      "isbn": "9798999954268",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798999954268 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798999954268",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798999954268",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Bitcoin Tao",
+      "authors": [
+        "Zach Wischler"
+      ],
+      "year": 2026,
+      "isbn": "9798999954244",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798999954244 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798999954244",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798999954244",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Singularity",
+      "authors": [
+        "Boyd Cohen"
+      ],
+      "year": 2025,
+      "isbn": "9798282739473",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798282739473 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798282739473",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798282739473",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Would Mao Hold Bitcoin?",
+      "authors": [
+        "Roger Huang"
+      ],
+      "year": 2024,
+      "isbn": "9798989132652",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798989132652 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798989132652",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798989132652",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Bitcoin Miner's Almanac",
+      "authors": [
+        "Robert Warren"
+      ],
+      "year": 2024,
+      "isbn": "9798989132638",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798989132638 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798989132638",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798989132638",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Energy, the Flip Side of Money",
+      "authors": [
+        "Pierre Noizat"
+      ],
+      "year": 2026,
+      "isbn": "9789916749647",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916749647 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916749647",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916749647",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Diploma",
+      "authors": [
+        "My First Bitcoin"
+      ],
+      "year": 2025,
+      "isbn": "9798999387400",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798999387400 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798999387400",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798999387400",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Fifteen Shades of Time",
+      "authors": [
+        "Philip Charter"
+      ],
+      "year": 2024,
+      "isbn": "9789916749388",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916749388 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916749388",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916749388",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Evangelism",
+      "authors": [
+        "Brian E. de Mint"
+      ],
+      "year": 2022,
+      "isbn": "9798986346304",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9798986346304 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9798986346304",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9798986346304",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Blockchain Democracy",
+      "authors": [
+        "William Magnuson"
+      ],
+      "year": 2020,
+      "isbn": "9781108660587",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781108660587 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781108660587",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781108660587",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Cryptoassets",
+      "authors": [
+        "Matt Hougan",
+        "David Lawant"
+      ],
+      "year": 2021,
+      "isbn": "9781952927096",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9781952927096 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781952927096",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781952927096",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Ons geld is stuk",
+      "authors": [
+        "Peter Slagter",
+        "Bert Slagter"
+      ],
+      "year": 2021,
+      "isbn": "9789048859528",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789048859528 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789048859528",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789048859528",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin a jiné kryptopeníze budoucnosti",
+      "authors": [
+        "Dominik Stroukal",
+        "Jan Skalický"
+      ],
+      "year": 2018,
+      "isbn": "9788027108176",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9788027108176 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9788027108176",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9788027108176",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "The Undocumented Internals of the Bitcoin, Ethereum and Blockchains",
+      "authors": [
+        "Vijay Mukhi"
+      ],
+      "year": 2018,
+      "isbn": "9789387284968",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789387284968 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789387284968",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789387284968",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin. Potentials, Problems and Regulatory Issues of the First Mainstream Cryptocurrency",
+      "authors": [
+        "Jens Hoffmann"
+      ],
+      "year": 2019,
+      "isbn": "9783668990999",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783668990999 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783668990999",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783668990999",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin für Einsteiger",
+      "authors": [
+        "Marco Bühler"
+      ],
+      "year": 2024,
+      "isbn": "9783969673973",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783969673973 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783969673973",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783969673973",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Samira & Milo – Auf den Spuren der Toshis",
+      "authors": [
+        "Carlotta Müller"
+      ],
+      "year": 2025,
+      "isbn": "9783949098611",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783949098611 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783949098611",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783949098611",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Virtus Digitalis",
+      "authors": [
+        "Alexander Best"
+      ],
+      "year": 2025,
+      "isbn": "9783949098628",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783949098628 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783949098628",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783949098628",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Alles Betrug, außer Bitcoin!",
+      "authors": [
+        "Dominik Schwarzer"
+      ],
+      "year": 2024,
+      "isbn": "9783759208309",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783759208309 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783759208309",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783759208309",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Mieses Geld",
+      "authors": [
+        "Bettina Betz",
+        "Harald Betz"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Mieses Geld\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Mieses%20Geld%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Coinfinity Bitcoin Blinks",
+      "authors": [
+        "Coinfinity"
+      ],
+      "year": 2023,
+      "isbn": "9783949098529",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783949098529 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783949098529",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783949098529",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Geld in Kürze",
+      "authors": [
+        "Daniel Deckner"
+      ],
+      "year": 2022,
+      "isbn": "9789916697818",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9789916697818 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9789916697818",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916697818",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Die Orange Pille",
+      "authors": [
+        "Ijoma Mangold"
+      ],
+      "year": 2023,
+      "isbn": "9783423441193",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783423441193 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783423441193",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783423441193",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Marlas Bitcoin Abenteuer",
+      "authors": [
+        "Edwin Schotland"
+      ],
+      "year": 2023,
+      "isbn": "9783949098383",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783949098383 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783949098383",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783949098383",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Magic Future Money",
+      "authors": [
+        "Friedemann Brenneis (ed.)"
+      ],
+      "year": 2021,
+      "isbn": "9783949098185",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783949098185 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783949098185",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783949098185",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Bitcoins verwahren und vererben",
+      "authors": [
+        "Marc Steiner"
+      ],
+      "year": 2020,
+      "isbn": "9783982109572",
+      "candidate_origin": "prior_catalog",
+      "reason": "ISBN 9783982109572 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9783982109572",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9783982109572",
+          "result": "ISBN not present in the Open Library search results collected for this catalogue."
+        }
+      ]
+    },
+    {
+      "title": "Money Load",
+      "authors": [
+        "Susanne Dröber"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Money Load\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Money%20Load%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin Circular Economies",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Bitcoin Circular Economies\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Bitcoin%20Circular%20Economies%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "I Am Not Your Bruh",
+      "authors": [
+        "George Mekhail"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"I Am Not Your Bruh\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22I%20Am%20Not%20Your%20Bruh%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "The Praxeology of Privacy",
+      "authors": [
+        "Hillebrand"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"The Praxeology of Privacy\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Praxeology%20of%20Privacy%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "(L)earn Bitcoin",
+      "authors": [
+        "Posch"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"(L)earn Bitcoin\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22%28L%29earn%20Bitcoin%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "The Satoshi Era",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"The Satoshi Era\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Satoshi%20Era%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Bitcoin for Institutions",
+      "authors": [
+        "Hirschfield"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Bitcoin for Institutions\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Bitcoin%20for%20Institutions%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Exponential Gold",
+      "authors": [
+        "Dragosch"
+      ],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Exponential Gold\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Exponential%20Gold%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": "Maximum Freedom, Minimum Bullshit",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "prior_catalog",
+      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "title:\"Maximum Freedom, Minimum Bullshit\"",
+          "url": "https://openlibrary.org/search.json?q=title%3A%22Maximum%20Freedom%2C%20Minimum%20Bullshit%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
+          "result": "numFound=0; first title=None"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "exclusion_summary",
+      "reason": "85 Open Library or Library of Congress records were set aside because the title matches blank stationery (notebook, sketchbook, coloring book, planner, puzzle, or similar) rather than a book about Bitcoin. They are not entries on the site. Examples: Bitcoin Notebook; Bitcoin Notebook; Bitcoin Notebook; Bitcoin Coloring Book; Bitcoin Trading Notebook; Bitcoin Weekly Planner 2018; Bitcoin Weekly Planner 2019; Sketchbook.",
+      "searches": []
+    },
+    {
+      "title": null,
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "exclusion_summary",
+      "reason": "112 clustered records had no author and were not published. Examples: Bitcoin mining for beginners; Earning Bitcoins for Free; Bitcoin; Der Bitcoin-Standard; Best free bitcoin earning; Autopilot BitCoin; Free Bitcoin; Bitcoin Cheat Sheet.",
+      "searches": []
+    },
+    {
+      "title": null,
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "exclusion_summary",
+      "reason": "2 clustered records had no publication year between 2008 and 2026 and were not published. Examples: The Crypto Book; アフター・ビットコイン.",
+      "searches": []
+    }
+  ]
+}

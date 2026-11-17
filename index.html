@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitcoin books</title>
+  <meta name="description" content="A source-backed catalogue of books about Bitcoin and books with a documented chapter, passage, or case study on Bitcoin.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="kicker">Source-backed catalogue</p>
+    <h1>Bitcoin books</h1>
+    <p class="lede">Books whose library records show that Bitcoin is the subject, or a major subject, and a separate list for books with a documented chapter, passage, or case study. Each entry links to the record that supports it.</p>
+    <p class="updated">Last updated <time id="updated"></time></p>
+  </header>
+
+  <main id="main">
+    <form id="filters" class="filters" action="#" autocomplete="off">
+      <div class="field field-search">
+        <label for="q">Search</label>
+        <input id="q" name="q" type="search" placeholder="Title, author, ISBN, or note" enterkeyhint="search">
+      </div>
+      <div class="field">
+        <label for="list">List</label>
+        <select id="list" name="list">
+          <option value="all">Both lists</option>
+          <option value="about">About</option>
+          <option value="mentions">Mentions</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="category">About category</label>
+        <select id="category" name="category">
+          <option value="all">All categories</option>
+          <option value="money-economics">Money and economics</option>
+          <option value="technical">Technical</option>
+          <option value="history">History</option>
+          <option value="investing">Investing</option>
+          <option value="fiction">Fiction</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="field field-year">
+        <label for="year-from">Year from</label>
+        <input id="year-from" name="year-from" type="number" inputmode="numeric" min="2008" max="2026" placeholder="2008">
+      </div>
+      <div class="field field-year">
+        <label for="year-to">Year to</label>
+        <input id="year-to" name="year-to" type="number" inputmode="numeric" min="2008" max="2026" placeholder="2026">
+      </div>
+    </form>
+
+    <p class="counts" aria-live="polite">
+      <span class="count"><strong id="count-about">0</strong> about</span>
+      <span class="count"><strong id="count-mentions">0</strong> mentions</span>
+      <span class="count-note" id="count-note"></span>
+    </p>
+
+    <p id="status" class="status" role="status"></p>
+    <div id="results"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Definitive coverage is the aim, not a claim. Records come from Open Library and the Library of Congress. A book with no supporting record is left out of this page. Category filters the About list. Search and year filter both lists.</p>
+  </footer>
+
+  <noscript><p>This catalogue needs JavaScript to load <code>data/books.json</code> and filter it in the browser.</p></noscript>
+  <script src="js/catalogue.js"></script>
+</body>
+</html>

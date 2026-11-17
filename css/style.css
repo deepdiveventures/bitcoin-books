@@ -1,0 +1,211 @@
+:root {
+  --paper: #f4f0e6;
+  --ink: #1b1814;
+  --muted: #5e574c;
+  --line: #d8d0c2;
+  --accent: #8c3b22;
+  --accent-soft: #f3e4da;
+  --card: #fbf8f2;
+  --focus: #1f4d3a;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.site-header,
+main,
+.site-footer {
+  width: min(920px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.site-header { padding: 2.2rem 0 1rem; }
+
+.kicker {
+  margin: 0 0 0.35rem;
+  color: var(--accent);
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.1rem, 6vw, 3.4rem);
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.lede { margin: 0.8rem 0 0; max-width: 40rem; }
+
+.updated {
+  margin: 0.7rem 0 0;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 0.8rem;
+  margin: 0.5rem 0 1rem;
+  padding: 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.field { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.field-search { grid-column: 1 / -1; }
+
+label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+input, select {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  align-items: baseline;
+  margin: 0 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.count {
+  padding: 0.2rem 0.55rem;
+  background: var(--accent-soft);
+  border-radius: 999px;
+}
+
+.count strong { font-variant-numeric: tabular-nums; }
+
+.count-note { color: var(--muted); font-size: 0.92rem; }
+
+.status { color: var(--muted); }
+
+.group { margin: 0 0 1.6rem; }
+
+.group h2 {
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.25rem;
+  font-weight: 560;
+}
+
+.group-count {
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.book {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 140px;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.meta {
+  margin: 0;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.book h3 {
+  margin: 0.15rem 0 0;
+  font-size: 1.22rem;
+  font-weight: 560;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.subtitle, .authors, .isbn, .relevance, .source {
+  margin: 0.2rem 0 0;
+}
+
+.subtitle { font-style: italic; }
+
+.authors { color: var(--ink); }
+
+.isbn, .lang {
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+}
+
+.relevance { max-width: 42rem; }
+
+.source a {
+  color: var(--accent);
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+
+.source a:hover { text-decoration-thickness: 2px; }
+
+.empty {
+  padding: 1rem 0 2rem;
+  color: var(--muted);
+}
+
+.site-footer {
+  padding: 0.5rem 0 2.5rem;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 720px) {
+  .filters { grid-template-columns: 1.4fr 0.8fr 0.9fr 0.55fr 0.55fr; }
+  .field-search { grid-column: auto; }
+}
+
+@media (max-width: 719px) {
+  .field-search,
+  .filters .field:nth-child(2),
+  .filters .field:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
