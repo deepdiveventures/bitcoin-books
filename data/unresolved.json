@@ -925,6 +925,24 @@
       ]
     },
     {
+      "title": "Bitcoin Magazine Issue 7",
+      "authors": [
+        "Coin Publishing LLC"
+      ],
+      "year": 2013,
+      "isbn": "9781622096701",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library search returned /works/OL27102774W “Bitcoin Magazine Issue 7” for ISBN 9781622096701. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781622096701",
+          "url": "https://openlibrary.org/search.json?q=isbn%3A9781622096701",
+          "result": "Work /works/OL27102774W “Bitcoin Magazine Issue 7” returned; subjects ['Bitcoin'] do not establish a Bitcoin subject or chapter."
+        }
+      ]
+    },
+    {
       "title": "Generar Bitcoins",
       "authors": [],
       "year": 2021,
@@ -1754,7 +1772,7 @@
       "year": null,
       "isbn": null,
       "candidate_origin": "exclusion_summary",
-      "reason": "85 Open Library or Library of Congress records were set aside because the title matches blank stationery (notebook, sketchbook, coloring book, planner, puzzle, or similar) rather than a book about Bitcoin. They are not entries on the site. Examples: Bitcoin Notebook; Bitcoin Notebook; Bitcoin Notebook; Bitcoin Coloring Book; Bitcoin Trading Notebook; Bitcoin Weekly Planner 2018; Bitcoin Weekly Planner 2019; Sketchbook.",
+      "reason": "174 Open Library or Library of Congress records were set aside as non-books: notebooks, log books, address books, password books, journals, diaries, planners, calendars, coloring and puzzle books, lined paper, blank ledgers, magazine issues, or other low-content items. They are not entries on the site. Examples: Bitcoin Notebook; Bitcoin Journal; Bitcoin 100$ A Day Autopilot-print1; Bitcoin Beautee Transaction Ledger; Bitcoin LEDGER; DIARY - Bitcoin; Bitcoin Notebook; Bitcoin Notebook.",
       "searches": []
     },
     {
@@ -1763,7 +1781,7 @@
       "year": null,
       "isbn": null,
       "candidate_origin": "exclusion_summary",
-      "reason": "112 clustered records had no author and were not published. Examples: Bitcoin mining for beginners; Earning Bitcoins for Free; Bitcoin; Der Bitcoin-Standard; Best free bitcoin earning; Autopilot BitCoin; Free Bitcoin; Bitcoin Cheat Sheet.",
+      "reason": "110 clustered records had no author and were not published. Examples: Bitcoin mining for beginners; Earning Bitcoins for Free; Bitcoin; Der Bitcoin-Standard; Best free bitcoin earning; Autopilot BitCoin; Free Bitcoin; Bitcoin Cheat Sheet.",
       "searches": []
     },
     {

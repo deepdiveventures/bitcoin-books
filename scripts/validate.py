@@ -140,6 +140,18 @@ def validate_data() -> tuple[list[str], dict]:
             seen_identity.add(identity)
         if re.search(r"second survivability problem", title or "", re.I):
             fail(errors, f"{where} seed title was published without a resolved record")
+        original_id = book.get("original_id")
+        if original_id is not None:
+            if not isinstance(original_id, str) or not book.get("original_title"):
+                fail(errors, f"{where} original link is incomplete")
+
+    ids_now = {book.get("id") for book in books if isinstance(book, dict)}
+    for index, book in enumerate(books):
+        original_id = book.get("original_id") if isinstance(book, dict) else None
+        if original_id and original_id not in ids_now:
+            fail(errors, f"books[{index}] original_id {original_id} is not in the catalogue")
+        if original_id and original_id == book.get("id"):
+            fail(errors, f"books[{index}] links to itself as the English original")
 
     items = unresolved.get("items")
     if not isinstance(items, list) or not items:

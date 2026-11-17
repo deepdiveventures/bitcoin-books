@@ -9,20 +9,20 @@ Definitive coverage is the aim, not a claim this list has reached it. Anything t
 
 ## Counts on 2026-11-17
 
-About: **1953**
+About: **1867**
 
 | Category | Books |
 | --- | ---: |
-| money-economics | 342 |
-| technical | 27 |
-| history | 27 |
-| investing | 230 |
+| money-economics | 1011 |
+| technical | 275 |
+| history | 31 |
+| investing | 490 |
 | fiction | 23 |
-| other | 1304 |
+| other | 37 |
 
-Mentions: **3**. Unresolved items: **96** (including the seed title, prior candidates that could not be supported, and short notes on records that were set aside).
+Mentions: **3**. Unresolved items: **97** (the seed title, prior candidates that could not be supported, and short notes on records set aside as non-books, authorless, or undated).
 
-`other` is large on purpose. Many Open Library records only show that the title or a subject heading is Bitcoin, with no finer heading for economics, software, history, investing, or fiction.
+`other` is the leftover: law and regulation, religion, philosophy, dictionaries, and a few records whose title is not in Latin script. General Bitcoin books, buying guides, and technical books are in the named categories. A translation keeps its own entry. When the library records show the same author and the foreign title is the English title’s wording, the entry links to that English edition.
 
 ## What was consulted
 

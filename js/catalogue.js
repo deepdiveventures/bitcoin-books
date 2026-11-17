@@ -93,6 +93,7 @@
 
   function renderBook(book) {
     var article = el("article", "book");
+    if (book.id) article.id = book.id;
     var meta = el("p", "meta");
     meta.appendChild(el("span", "year", String(book.year)));
     if (book.list === "about" && categoryLabel[book.category]) {
@@ -110,6 +111,15 @@
     article.appendChild(el("h3", null, book.title));
     if (book.subtitle) article.appendChild(el("p", "subtitle", book.subtitle));
     article.appendChild(el("p", "authors", (book.authors || []).join(", ")));
+    if (book.original_title && book.original_id) {
+      var original = el("p", "original");
+      original.appendChild(document.createTextNode("English edition in this catalogue: "));
+      var jump = document.createElement("a");
+      jump.href = "#" + book.original_id;
+      jump.textContent = book.original_title;
+      original.appendChild(jump);
+      article.appendChild(original);
+    }
     if (book.isbn) article.appendChild(el("p", "isbn", "ISBN " + book.isbn));
     article.appendChild(el("p", "relevance", book.bitcoin_relevance));
     var source = el("p", "source");

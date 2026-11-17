@@ -177,6 +177,13 @@ input:focus, select:focus {
 
 .relevance { max-width: 42rem; }
 
+.original {
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+}
+
+.original a { color: var(--accent); }
+
 .source a {
   color: var(--accent);
   font-family: system-ui, sans-serif;
