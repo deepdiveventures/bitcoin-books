@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-17",
-  "sources_note": "About and mentions entries are backed by Open Library, the Internet Archive full-text index, or the Library of Congress. The referenced section is not fully verified: it holds X references with no confirmed library record, and books with only a single full-text passage. Google Books was not used; the keyless API returned HTTP 429.",
+  "sources_note": "About entries are books whose library record, full title, or Nakamoto Library listing (nakamotolibrary.org) shows Bitcoin is the subject. Mentions quote a description, contents list, or at least two full-text passages. Referenced entries are X posts or a single full-text passage and are not fully verified. Google Books was not used; the keyless API returned HTTP 429.",
   "books": [
     {
       "title": "LOS SECRETOS DEL BITCOIN",
@@ -298,7 +298,7 @@
     },
     {
       "title": "BITCOIN",
-      "subtitle": null,
+      "subtitle": "The Future of Money?",
       "authors": [
         "Dominic Frisby"
       ],
@@ -312,7 +312,13 @@
       "language": "eng",
       "id": "bitcoin-2014-frisby",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-the-future-of-money",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin",
@@ -457,7 +463,13 @@
       "language": "eng",
       "id": "bitcoin-for-the-befuddled-2014-barski",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-for-the-befuddled",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Mania",
@@ -1045,7 +1057,13 @@
       "language": "eng",
       "id": "age-of-cryptocurrency-2015-vigna",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-age-of-cryptocurrency",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The rise and rise of Bitcoin",
@@ -1463,7 +1481,13 @@
       "language": "eng",
       "id": "politics-of-bitcoin-2016-golumbia",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-politics-of-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Rechtliche Einordnung Von Internetwaehrungen Im Deutschen Rechtssystem Am Beispiel Von Bitcoin",
@@ -1499,7 +1523,13 @@
       "language": "eng",
       "id": "bitcoin-guidebook-2016-demartino",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-guidebook",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The Enigma of Money",
@@ -1535,7 +1565,13 @@
       "language": "eng",
       "id": "internet-of-money-2016-antonopoulos",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-internet-of-money",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "1 Bitcoin = 1 Millon de Dolares",
@@ -4475,7 +4511,13 @@
       "language": null,
       "id": "internet-of-money-volume-two-2017-antonopoulos",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-internet-of-money-volume-two",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "to Z of Bitcoin",
@@ -7917,7 +7959,13 @@
       "language": "eng",
       "id": "bitcoin-standard-2018-ammous",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-standard",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Three Minute Reads on Bitcoin",
@@ -8262,7 +8310,13 @@
       "language": null,
       "id": "21-lessons-2019-gigi",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/21-lessons",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "A Brave New Future, 2084, Bitcoin",
@@ -8481,7 +8535,13 @@
       "language": null,
       "id": "bitcoin-black-america-2019-jackson",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-and-black-america",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin - eine Sichere W�hrung?",
@@ -9460,7 +9520,13 @@
       "language": null,
       "id": "inventing-bitcoin-2019-pritzker",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/inventing-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Is Bitcoin Bull$h!t?",
@@ -9757,7 +9823,13 @@
       "language": "eng",
       "id": "little-bitcoin-book-2019-vranova",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-little-bitcoin-book",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Unlock the Secrets of Bitcoin",
@@ -9830,7 +9902,13 @@
       "language": null,
       "id": "why-buy-bitcoin-2019-edstrom",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/why-buy-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Witwassen van bitcoins",
@@ -9993,7 +10071,13 @@
       "language": null,
       "id": "bitcoin-2020-williams",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-hard-money-you-cant-f-ck-with",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "BITCOIN",
@@ -10445,7 +10529,13 @@
       "language": null,
       "id": "bitcoin-clarity-2020-bickers",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-clarity",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Code",
@@ -13037,7 +13127,13 @@
       "language": "eng",
       "id": "bitcoin-shortcut-2021-anthony",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-shortcut",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Terminplaner",
@@ -14295,7 +14391,13 @@
       "language": null,
       "id": "layered-money-from-gold-and-dollars-to-bitcoin-a-2021-bhatia",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/layered-money",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Leer Bitcoins",
@@ -14920,7 +15022,13 @@
       "language": null,
       "id": "7th-property-2021-yakes",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-7th-property",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The Fiat Standard",
@@ -14938,7 +15046,13 @@
       "language": "eng",
       "id": "fiat-standard-2021-ammous",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-fiat-standard",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The Promise of Bitcoin",
@@ -15679,7 +15793,13 @@
       "language": "eng",
       "id": "bitcoin-and-beef-2022-scott",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-and-beef",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin and Cryptocurrency Technologies",
@@ -16023,7 +16143,13 @@
       "language": "eng",
       "id": "bitcoin-is-venice-2022-farrington",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-is-venice",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin on the Go",
@@ -16348,7 +16474,13 @@
       "language": "eng",
       "id": "check-your-financial-privilege-2022-gladstein",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/check-your-financial-privilege",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Colora Bitcoin e gli Amici",
@@ -17241,7 +17373,13 @@
       "language": "eng",
       "id": "progressive-s-case-for-bitcoin-2023-maier",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/a-progressives-case-for-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Better Money",
@@ -17458,7 +17596,13 @@
       "language": "eng",
       "id": "bitcoin-vs-altcoins-2023-champagne",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-vs-altcoins",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin-Dollar",
@@ -17476,7 +17620,13 @@
       "language": "eng",
       "id": "bitcoin-dollar-2023-goodwin",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-dollar",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "BTC AUTOPILOT PDF",
@@ -17512,7 +17662,13 @@
       "language": "eng",
       "id": "do-bitcoin-2023-morgan-somers",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/do-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Fiat Ruins Everything",
@@ -17530,7 +17686,13 @@
       "language": "eng",
       "id": "fiat-ruins-everything-2023-song",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/fiat-ruins-everything",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Going Infinite",
@@ -17584,7 +17746,13 @@
       "language": "eng",
       "id": "gradually-then-suddenly-2023-lewis",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/gradually-then-suddenly",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Kevin Learns about Bitcoin",
@@ -17747,7 +17915,13 @@
       "language": "eng",
       "id": "big-bitcoin-book-2024-krueger",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-big-bitcoin-book",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin",
@@ -17856,7 +18030,13 @@
       "language": "eng",
       "id": "bitcoin-supercycle-2024-terpin",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-supercycle",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Cripto e Bitcoin - Português",
@@ -18020,7 +18200,13 @@
       "language": "eng",
       "id": "little-book-of-bitcoin-2024-scaramucci",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-little-book-of-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Minar Bitcoins en la Práctica",
@@ -18095,7 +18281,13 @@
       "language": "eng",
       "id": "bitcoin-leap-2024-fadirepo",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-leap",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "What Is Money and Why YOU Should Care about Bitcoin",
@@ -18149,7 +18341,13 @@
       "language": "eng",
       "id": "42-page-bitcoin-book-2025-anthony",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-42-page-bitcoin-book",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin et cryptomonnaies",
@@ -18204,7 +18402,13 @@
       "language": "eng",
       "id": "bitcoin-is-for-everyone-2025-brunell",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-is-for-everyone",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Treasury Playbook",
@@ -18277,7 +18481,13 @@
       "language": "eng",
       "id": "devil-takes-bitcoin-2025-adelstein",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-devil-takes-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Die Krypto Knacker - eine Reise zu Bitcoin & Co.",
@@ -18332,7 +18542,13 @@
       "language": "eng",
       "id": "money-love-and-bitcoin-2025-rogers",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/money-love-and-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Satoshi Papers",
@@ -18350,7 +18566,13 @@
       "language": "eng",
       "id": "satoshi-papers-2025-smolenski",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-satoshi-papers",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Auditing Bitcoin",
@@ -18406,7 +18628,13 @@
       "language": "eng",
       "id": "defending-bitcoin-2026-hyppönen",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/defending-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The Golden Bitcoin",
@@ -18478,7 +18706,17 @@
       "language": "ita",
       "id": "mastering-bitcoin-2014-antonopoulos",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/mastering-bitcoin",
+          "label": "Nakamoto Library"
+        },
+        {
+          "url": "https://nakamotolibrary.org/mastering-bitcoin-3rd-edition",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Serverless Wallet and Vault - BA. net",
@@ -21008,7 +21246,13 @@
       "language": "eng",
       "id": "grokking-bitcoin-2019-rosenbaum",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/grokking-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Inside Blockchain, Bitcoin, and Cryptocurrencies",
@@ -21062,7 +21306,13 @@
       "language": null,
       "id": "programming-bitcoin-2019-song",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/programming-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Transforming Businesses with Bitcoin Mining and Blockchain Applications",
@@ -21231,7 +21481,13 @@
       "language": "eng",
       "id": "cryptoeconomics-2020-voskuil",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/cryptoeconomics",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Cutting-Edge Blockchain and Bitcoin",
@@ -22545,7 +22801,13 @@
       "language": null,
       "id": "mastering-the-lightning-network-2021-antonopoulos",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/mastering-the-lightning-network",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Mechanics of Bitcoin",
@@ -23457,7 +23719,13 @@
       "language": "eng",
       "id": "book-of-satoshi-2014-champagne",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-book-of-satoshi",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Digital gold",
@@ -23475,7 +23743,13 @@
       "language": "eng",
       "id": "digital-gold-2015-popper",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/digital-gold",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Virtual billions",
@@ -23619,7 +23893,13 @@
       "language": "eng",
       "id": "bitcoin-billionaires-2019-mezrich",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/bitcoin-billionaires",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "History of Bitcoin",
@@ -23818,7 +24098,13 @@
       "language": "eng",
       "id": "blocksize-war-2021-bier",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-blocksize-war",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Understanding Bitcoin",
@@ -23963,7 +24249,13 @@
       "language": "eng",
       "id": "genesis-book-2024-wirdum",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-genesis-book",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Hijacking Bitcoin",
@@ -23982,7 +24274,13 @@
       "language": "eng",
       "id": "hijacking-bitcoin-2024-ver",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/hijacking-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Shells to Satoshi",
@@ -24001,7 +24299,13 @@
       "language": "eng",
       "id": "shells-to-satoshi-2024-heikkinen",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/shells-to-satoshi",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Explained",
@@ -24273,7 +24577,13 @@
       "language": "eng",
       "id": "bitcoin-big-bang-2014-kelly",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-big-bang",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The ultimate guide to bitcoin",
@@ -26643,7 +26953,13 @@
       "language": "eng",
       "id": "how-to-explain-bitcoin-to-your-mum-2018-deane",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/how-to-explain-bitcoin-to-your-mum",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "How to Invest In Bitcoin",
@@ -31359,7 +31675,13 @@
       "language": "eng",
       "id": "bullish-case-for-bitcoin-2021-boyapati",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bullish-case-for-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Tips to Avoid Digital Trading Mistakes",
@@ -32811,7 +33133,13 @@
       "language": "eng",
       "id": "decrypting-money-2023-krohn",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/decrypting-money",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "How to Make $1 Million with Bitcoin",
@@ -32847,7 +33175,13 @@
       "language": "eng",
       "id": "bitcoin-handbook-2023-patel",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-bitcoin-handbook",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Bitcoin Investing for Beginners",
@@ -33842,7 +34176,13 @@
       "language": null,
       "id": "thank-god-for-bitcoin-2020-group",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/thank-god-for-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "جراىم و مجازات هاى بىت کىن و بلاکچىن در حقوق ايران",
@@ -33950,7 +34290,13 @@
       "language": "eng",
       "id": "cryptosovereignty-2023-cason",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/cryptosovereignty",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "The Philosophy of Bitcoin",
@@ -33968,7 +34314,13 @@
       "language": "eng",
       "id": "philosophy-of-bitcoin-2023-maría",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/the-philosophy-of-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Principles of Bitcoin",
@@ -33986,7 +34338,13 @@
       "language": "eng",
       "id": "principles-of-bitcoin-2025-selvam",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-record",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/principles-of-bitcoin",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "title": "Money",
@@ -34040,7 +34398,13 @@
       "language": null,
       "id": "tracers-in-the-dark-2022-greenberg",
       "confidence": "library-verified",
-      "evidence_type": "description-or-contents"
+      "evidence_type": "description-or-contents",
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/tracers-in-the-dark",
+          "label": "Nakamoto Library"
+        }
+      ]
     },
     {
       "id": "p3-0074-afuta-bittokoin-after-bitcoin",
@@ -34169,6 +34533,12 @@
         "https://x.com/i/status/2115749687307456514",
         "https://x.com/i/status/2116301652202578181",
         "https://x.com/i/status/2118104845391692087"
+      ],
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/broken-money",
+          "label": "Nakamoto Library"
+        }
       ]
     },
     {
@@ -34270,6 +34640,12 @@
       "evidence_type": "title-or-subject",
       "x_posts": [
         "https://x.com/i/status/2119202362019434823"
+      ],
+      "also_sources": [
+        {
+          "url": "https://nakamotolibrary.org/resistance-money",
+          "label": "Nakamoto Library"
+        }
       ]
     },
     {
@@ -64261,18 +64637,24 @@
       ],
       "year": null,
       "isbn": null,
-      "list": "referenced",
-      "category": "money-economics",
-      "bitcoin_relevance": "Companion to The Big Bitcoin Book (already in catalogue). Posts cite chapter 14 on AI and Bitcoin; donated to the Nakamoto Library. Open Library title search found no record.",
-      "source_url": "https://x.com/i/status/2116361365346517420",
-      "source_label": "X",
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-one-million",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2116361365346517420",
         "https://x.com/i/status/2117653265370259572",
         "https://x.com/i/status/2115845194826596795"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2116361365346517420",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64345,18 +64727,24 @@
       ],
       "year": 2023,
       "isbn": "9798371524188",
-      "list": "referenced",
+      "list": "about",
       "category": "other",
-      "bitcoin_relevance": "Jason Lowery's book on Bitcoin proof-of-work as power projection (MIT thesis origin per X post 2122363832068649069). Open Library (title/author/ISBN queries), Library of Congress: no record found. Go…",
-      "source_url": "https://x.com/i/status/2113328332167414198",
-      "source_label": "X",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/softwar",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2113328332167414198",
         "https://x.com/i/status/2121709232315834648",
         "https://x.com/i/status/2122363832068649069"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2113328332167414198",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64368,18 +64756,24 @@
       ],
       "year": null,
       "isbn": null,
-      "list": "referenced",
-      "category": "other",
-      "bitcoin_relevance": "Podcast posts describe it as about why smart people ignore Bitcoin and how the mind protects identity; chosen for a Bitcoin book club. Author name from the podcast host's post.",
-      "source_url": "https://x.com/i/status/2114739315955867951",
-      "source_label": "X",
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-belief-machine",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2114739315955867951",
         "https://x.com/i/status/2114795017223143696",
         "https://x.com/i/status/2113024213715919068"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2114739315955867951",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64391,16 +64785,22 @@
       ],
       "year": null,
       "isbn": null,
-      "list": "referenced",
+      "list": "about",
       "category": "money-economics",
-      "bitcoin_relevance": "Read by a Bitcoin book club (chapter 1 'Mind Trick' covers what makes money valuable). Author named in the post. Open Library title search found no record.",
-      "source_url": "https://x.com/i/status/2121175761897820597",
-      "source_label": "X",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-age",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2121175761897820597"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2121175761897820597",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64495,16 +64895,22 @@
       ],
       "year": null,
       "isbn": null,
-      "list": "referenced",
-      "category": "other",
-      "bitcoin_relevance": "Recommended as 'the best audiobook' for learning Bitcoin. NOTE: other books titled 'Why Bitcoin' (Kolluru 2024, Williams 2023, McLaughlin 2022) exist in Open Library; this record is the Strolight tit…",
-      "source_url": "https://x.com/i/status/2111647974610653642",
-      "source_label": "X",
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/why-bitcoin",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2111647974610653642"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2111647974610653642",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64655,16 +65061,22 @@
       ],
       "year": null,
       "isbn": null,
-      "list": "referenced",
+      "list": "about",
       "category": "money-economics",
-      "bitcoin_relevance": "Podcast post: author discusses why fiat can't be fixed and Bitcoin; book's Bitcoin coverage unverified.",
-      "source_url": "https://x.com/i/status/2112231859186762117",
-      "source_label": "X",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/modern-chains",
+      "source_label": "Nakamoto Library",
       "language": null,
-      "confidence": "x-reference-only",
-      "evidence_type": "x-post",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library",
       "x_posts": [
         "https://x.com/i/status/2112231859186762117"
+      ],
+      "also_sources": [
+        {
+          "url": "https://x.com/i/status/2112231859186762117",
+          "label": "X"
+        }
       ]
     },
     {
@@ -64729,6 +65141,1490 @@
       "x_posts": [
         "https://x.com/i/status/2112588413039771986"
       ]
+    },
+    {
+      "id": "bitcoin-a-peer-to-peer-electronic-cash-system-2008-nakamoto",
+      "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "subtitle": null,
+      "authors": [
+        "Satoshi Nakamoto"
+      ],
+      "year": 2008,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-a-peer-to-peer-electronic-cash-system",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "what-you-need-to-know-about-bitcoins-2011-sausilitos",
+      "title": "What You Need To Know About Bitcoins",
+      "subtitle": null,
+      "authors": [
+        "Marcos Sausilitos"
+      ],
+      "year": 2011,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/what-you-need-to-know-about-bitcoins",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-basics-2015-sammons",
+      "title": "Bitcoin Basics",
+      "subtitle": null,
+      "authors": [
+        "Eric Sammons"
+      ],
+      "year": 2015,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-basics",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "case-for-bitcoin-2015-jeffrey",
+      "title": "The Case For Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Mark Jeffrey"
+      ],
+      "year": 2015,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-case-for-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "american-kingpin-2017-bilton",
+      "title": "American Kingpin",
+      "subtitle": null,
+      "authors": [
+        "Nick Bilton"
+      ],
+      "year": 2017,
+      "isbn": "9781591848141",
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/american-kingpin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-sovereignty-through-mathematics-2019-svanholm",
+      "title": "Bitcoin: Sovereignty Through Mathematics",
+      "subtitle": null,
+      "authors": [
+        "Knut Svanholm"
+      ],
+      "year": 2019,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-sovereignty-through-mathematics",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "internet-of-money-volume-three-2019-antonopoulos",
+      "title": "The Internet of Money, Volume Three",
+      "subtitle": null,
+      "authors": [
+        "Andreas M. Antonopoulos"
+      ],
+      "year": 2019,
+      "isbn": "9781947910171",
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-internet-of-money-volume-three",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "price-of-tomorrow-2020-booth",
+      "title": "The Price of Tomorrow",
+      "subtitle": null,
+      "authors": [
+        "Jeff Booth"
+      ],
+      "year": 2020,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-price-of-tomorrow",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "truth-decay-2020-jones",
+      "title": "Truth Decay",
+      "subtitle": null,
+      "authors": [
+        "Victoria Collette Jones"
+      ],
+      "year": 2020,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/truth-decay",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-independence-reimagined-2020-svanholm",
+      "title": "Bitcoin: Independence Reimagined",
+      "subtitle": null,
+      "authors": [
+        "Knut Svanholm"
+      ],
+      "year": 2020,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-independence-reimagined",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "this-book-will-save-you-time-2020-mahmudov",
+      "title": "This Book Will Save You Time",
+      "subtitle": null,
+      "authors": [
+        "Misir Mahmudov"
+      ],
+      "year": 2020,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/this-book-will-save-you-time",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "magic-internet-money-2020-berger",
+      "title": "Magic Internet Money",
+      "subtitle": null,
+      "authors": [
+        "Jesse Berger"
+      ],
+      "year": 2020,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/magic-internet-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "l-earn-bitcoin-2021-posch",
+      "title": "(L)earn Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Anita Posch"
+      ],
+      "year": 2021,
+      "isbn": "9783950504378",
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/l-earn-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "christian-case-for-bitcoin-2021-melder",
+      "title": "The Christian Case for Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Patrick C. Melder"
+      ],
+      "year": 2021,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-christian-case-for-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "book-of-max-2021-keiser",
+      "title": "The Book of Max",
+      "subtitle": null,
+      "authors": [
+        "Max Keiser"
+      ],
+      "year": 2021,
+      "isbn": null,
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-book-of-max",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-and-the-american-dream-2021-cavaleri",
+      "title": "Bitcoin and the American Dream",
+      "subtitle": null,
+      "authors": [
+        "Amanda Cavaleri",
+        "Annaliese Wiederspahn",
+        "Charlene Hill Fadirepo",
+        "CJ Wilson",
+        "Gary Leland",
+        "Lamar Wilson",
+        "Pete Rizzo",
+        "Jimmy Song"
+      ],
+      "year": 2021,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-and-the-american-dream",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "downloading-divinity-2022-finne",
+      "title": "Downloading Divinity",
+      "subtitle": null,
+      "authors": [
+        "Jay Finne"
+      ],
+      "year": 2022,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/downloading-divinity",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-everything-divided-by-21-million-2022-svanholm",
+      "title": "Bitcoin: Everything Divided by 21 Million",
+      "subtitle": null,
+      "authors": [
+        "Knut Svanholm"
+      ],
+      "year": 2022,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-everything-divided-by-21-million",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-a-work-in-progress-2022-provoost",
+      "title": "Bitcoin: A Work in Progress",
+      "subtitle": null,
+      "authors": [
+        "Sjors Provoost"
+      ],
+      "year": 2022,
+      "isbn": "9789090360423",
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-a-work-in-progress",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-exponential-freedom-2022-leary",
+      "title": "Bitcoin & Exponential Freedom",
+      "subtitle": null,
+      "authors": [
+        "Jake Leary"
+      ],
+      "year": 2022,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-and-exponential-freedom",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-evangelism-2022-mint",
+      "title": "Bitcoin Evangelism",
+      "subtitle": null,
+      "authors": [
+        "Brian E. De Mint"
+      ],
+      "year": 2022,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-evangelism",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "b-is-for-bitcoin-2023-bunney",
+      "title": "B is for Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Seb Bunney",
+        "Daz Bea"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/b-is-for-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "proof-of-money-2023-michael",
+      "title": "Proof of Money",
+      "subtitle": null,
+      "authors": [
+        "Terence Michael"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/proof-of-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "abundance-through-scarcity-2023-appelberg",
+      "title": "Abundance Through Scarcity",
+      "subtitle": null,
+      "authors": [
+        "Ioni Appelberg"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/abundance-through-scarcity",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "history-echoes-bitcoin-2023-niemeyer",
+      "title": "History Echoes Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Tim Niemeyer"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/history-echoes-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bible-and-bitcoin-2023-armstrong",
+      "title": "The Bible and Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Alin Armstrong"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bible-and-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-is-better-2023-hershberger",
+      "title": "Bitcoin is Better",
+      "subtitle": null,
+      "authors": [
+        "Daniel Hershberger"
+      ],
+      "year": 2023,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-is-better",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "hidden-cost-of-money-2023-bunney",
+      "title": "The Hidden Cost of Money",
+      "subtitle": null,
+      "authors": [
+        "Seb Bunney"
+      ],
+      "year": 2023,
+      "isbn": "9781738934102",
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-hidden-cost-of-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-development-philosophy-2024-rosenbaum",
+      "title": "Bitcoin Development Philosophy",
+      "subtitle": null,
+      "authors": [
+        "Kalle Rosenbaum",
+        "Linnéa Rosenbaum"
+      ],
+      "year": 2024,
+      "isbn": "9789916723593",
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-development-philosophy",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "dao-of-bitcoin-2024-dedels",
+      "title": "The Dao of Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Scott Dedels"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-dao-of-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "conservative-case-for-bitcoin-2024-askew",
+      "title": "The Conservative Case for Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Mitchell Askew"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-conservative-case-for-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "parallel-2024-mint",
+      "title": "Parallel",
+      "subtitle": null,
+      "authors": [
+        "Brian E. De Mint",
+        "Knut Svanholm",
+        "Daniel Prince"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/parallel",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "introduction-to-bitcoin-2024-hilbay",
+      "title": "Introduction to Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Florin T. Hilbay"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/introduction-to-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "intro-to-bitcoin-2024-malone",
+      "title": "Intro to Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Erin E. Malone"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/intro-to-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "twenty-one-questions-2024-svetski",
+      "title": "Twenty One Questions",
+      "subtitle": null,
+      "authors": [
+        "Aleksandar Svetski",
+        "Brad Mills",
+        "Giacomo Zucco",
+        "Guy Swann",
+        "Natalie Brunell",
+        "Tomer Strolight",
+        "Mel Shilling",
+        "Jason Sellers"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/twenty-one-questions",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-miner-s-almanac-2024-warren",
+      "title": "The Bitcoin Miner's Almanac",
+      "subtitle": null,
+      "authors": [
+        "Robert Warren"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bitcoin-miners-almanac",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "would-mao-hold-bitcoin-2024-huang",
+      "title": "Would Mao Hold Bitcoin?",
+      "subtitle": null,
+      "authors": [
+        "Roger Huang"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/would-mao-hold-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "national-security-in-the-digital-age-2024-pines",
+      "title": "National Security in the Digital Age",
+      "subtitle": null,
+      "authors": [
+        "Matthew Pines",
+        "Kyle Schneps"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/national-security-in-the-digital-age",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "nakamoto-consensus-2024-nell",
+      "title": "The Nakamoto Consensus",
+      "subtitle": null,
+      "authors": [
+        "Nicholas Nell"
+      ],
+      "year": 2024,
+      "isbn": "9780796178305",
+      "list": "about",
+      "category": "fiction",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-nakamoto-consensus",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "pay-attention-to-bitcoin-2024-voelbel",
+      "title": "Pay Attention to Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Joseph Voelbel"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/pay-attention-to-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "simplest-bitcoin-book-ever-written-2024-luna",
+      "title": "The Simplest Bitcoin Book Ever Written",
+      "subtitle": null,
+      "authors": [
+        "Keysa Luna"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-simplest-bitcoin-book-ever-written",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-and-nash-equilibrium-2024-solstin",
+      "title": "Bitcoin and Nash Equilibrium",
+      "subtitle": null,
+      "authors": [
+        "Bryan Solstin"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-and-nash-equilibrium",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-the-inverse-of-clown-world-2024-svanholm",
+      "title": "Bitcoin: The Inverse of Clown World",
+      "subtitle": null,
+      "authors": [
+        "Knut Svanholm",
+        "Luke de Wolf"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-the-inverse-of-clown-world",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-prophecy-2024-aguilar",
+      "title": "Bitcoin Prophecy",
+      "subtitle": null,
+      "authors": [
+        "Ariel A. Aguilar"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-prophecy",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-explained-like-i-m-5-2024-scott",
+      "title": "Bitcoin Explained Like I'm 5",
+      "subtitle": null,
+      "authors": [
+        "Danny Scott",
+        "Henry Holligon"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-explained-like-im-5",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bushido-of-bitcoin-2024-svetski",
+      "title": "The Bushido of Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Aleksandar Svetski"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bushido-of-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "gospel-according-to-bitcoin-2024-sherman",
+      "title": "The Gospel According to Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Daniel Sherman",
+        "J.M. Bush"
+      ],
+      "year": 2024,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-gospel-according-to-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-times-2025-svetski",
+      "title": "The Bitcoin Times",
+      "subtitle": null,
+      "authors": [
+        "Aleksandar Svetski",
+        "Knut Svanholm"
+      ],
+      "year": 2025,
+      "isbn": "9789916931646",
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bitcoin-times",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "21-views-from-mount-fuji-2025-andrews",
+      "title": "21 Views From Mount Fuji",
+      "subtitle": null,
+      "authors": [
+        "Haiku Nakamoto & Carl Andrews"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/21-views-from-mount-fuji",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "big-print-2025-lepard",
+      "title": "The Big Print",
+      "subtitle": null,
+      "authors": [
+        "Lawrence Lepard"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-big-print",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-age-2025-livingston",
+      "title": "The Bitcoin Age",
+      "subtitle": null,
+      "authors": [
+        "Adam Livingston"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bitcoin-age",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "privatization-of-money-2025-lazarov",
+      "title": "The Privatization of Money",
+      "subtitle": null,
+      "authors": [
+        "Shimon Lazarov"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-privatization-of-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-bible-2025-duscio",
+      "title": "The Bitcoin Bible",
+      "subtitle": null,
+      "authors": [
+        "Antonio Duscio"
+      ],
+      "year": 2025,
+      "isbn": "9781038330314",
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bitcoin-bible",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "mysterious-mr-nakamoto-2025-wallace",
+      "title": "The Mysterious Mr. Nakamoto",
+      "subtitle": null,
+      "authors": [
+        "Benjamin Wallace"
+      ],
+      "year": 2025,
+      "isbn": "9780593594025",
+      "list": "about",
+      "category": "history",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-mysterious-mr-nakamoto",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "great-harvest-2025-livingston",
+      "title": "The Great Harvest",
+      "subtitle": null,
+      "authors": [
+        "Adam Livingston"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-great-harvest",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "self-bitcoinization-2025-kaufman",
+      "title": "Self Bitcoinization",
+      "subtitle": null,
+      "authors": [
+        "Noah T. Kaufman",
+        "MD"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/self-bitcoinization",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-enlightenment-2025-salinas",
+      "title": "The Bitcoin Enlightenment",
+      "subtitle": null,
+      "authors": [
+        "Ricardo B. Salinas",
+        "Pascal Hügli",
+        "Daniel Jungen"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-bitcoin-enlightenment",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "exponential-gold-2025-dragosch",
+      "title": "Exponential Gold",
+      "subtitle": null,
+      "authors": [
+        "André Dragosch"
+      ],
+      "year": 2025,
+      "isbn": "9783000817823",
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/exponential-gold",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "moral-money-2025-sammons",
+      "title": "Moral Money",
+      "subtitle": null,
+      "authors": [
+        "Eric Sammons"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/moral-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "beyond-money-2025-liberati",
+      "title": "Beyond Money",
+      "subtitle": null,
+      "authors": [
+        "Daniella Liberati"
+      ],
+      "year": 2025,
+      "isbn": "9789893374368",
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/beyond-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "future-proof-2025-malone",
+      "title": "Future Proof",
+      "subtitle": null,
+      "authors": [
+        "Erin E. Malone"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/future-proof",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "neighborhood-bitcoin-standard-2025-shephard",
+      "title": "The Neighborhood Bitcoin Standard",
+      "subtitle": null,
+      "authors": [
+        "Tolbyus Shephard"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-neighborhood-bitcoin-standard",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-not-crypto-2025-hansen",
+      "title": "Bitcoin, Not Crypto",
+      "subtitle": null,
+      "authors": [
+        "Brett Hansen"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-not-crypto",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "hodl-thy-neighbor-2025-irl",
+      "title": "HODL Thy Neighbor",
+      "subtitle": null,
+      "authors": [
+        "Freedom Memes IRL"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/hodl-thy-neighbor",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "satoshi-s-gift-2025-jr",
+      "title": "Satoshi's Gift",
+      "subtitle": null,
+      "authors": [
+        "Michael Hollomon Jr."
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/satoshis-gift",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "getting-off-zero-2025-doug",
+      "title": "Getting Off Zero",
+      "subtitle": null,
+      "authors": [
+        "B!t Doug"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "investing",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/getting-off-zero",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "break-the-stake-2025-galt",
+      "title": "Break the Stake",
+      "subtitle": null,
+      "authors": [
+        "Jake Galt"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/break-the-stake",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "why-bitcoin-was-inevitable-2025-urso",
+      "title": "Why Bitcoin Was Inevitable",
+      "subtitle": null,
+      "authors": [
+        "Nicholas Urso"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/why-bitcoin-was-inevitable",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-consolidated-2025-marulli",
+      "title": "Bitcoin Consolidated",
+      "subtitle": null,
+      "authors": [
+        "David Marulli"
+      ],
+      "year": 2025,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-consolidated",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "way-of-bitcoin-2026-b",
+      "title": "The Way of Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Alan B."
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-way-of-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-mining-heat-reuse-2026-stevens",
+      "title": "Bitcoin Mining Heat Reuse",
+      "subtitle": null,
+      "authors": [
+        "Tyler Stevens"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-mining-heat-reuse",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "physics-of-bitcoin-2026-santostasi",
+      "title": "The Physics of Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Giovanni Santostasi"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-physics-of-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "bitcoin-the-honest-money-2026-frankenberg",
+      "title": "Bitcoin: The Honest Money",
+      "subtitle": null,
+      "authors": [
+        "Alex von Frankenberg"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/bitcoin-the-honest-money",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "sound-money-living-water-2026-quinby",
+      "title": "Sound Money, Living Water",
+      "subtitle": null,
+      "authors": [
+        "John Quinby"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/sound-money-living-water",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "ultimate-bitcoin-mining-guide-2026-csepcsar",
+      "title": "The Ultimate Bitcoin Mining Guide",
+      "subtitle": null,
+      "authors": [
+        "Kristian Csepcsar"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "technical",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-ultimate-bitcoin-mining-guide",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "black-red-and-orange-2026-waal",
+      "title": "Black, Red, and Orange",
+      "subtitle": null,
+      "authors": [
+        "Benjamin de Waal"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/black-red-and-orange",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "orange-black-and-red-2026-waal",
+      "title": "Orange, Black, and Red",
+      "subtitle": null,
+      "authors": [
+        "Benjamin de Waal"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "other",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/orange-black-and-red",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "why-zack-polanski-should-embrace-bitcoin-2026-waal",
+      "title": "Why Zack Polanski Should Embrace Bitcoin",
+      "subtitle": null,
+      "authors": [
+        "Benjamin de Waal"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/why-zack-polanski-should-embrace-bitcoin",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "unconfiscatable-2026-carlasare",
+      "title": "Unconfiscatable",
+      "subtitle": null,
+      "authors": [
+        "Joe Carlasare"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "fiction",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/unconfiscatable",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "digital-real-estate-2026-wankum",
+      "title": "Digital Real Estate",
+      "subtitle": null,
+      "authors": [
+        "Leon Wankum"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/digital-real-estate",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
+    },
+    {
+      "id": "most-american-idea-2026-winning",
+      "title": "The Most American Idea",
+      "subtitle": null,
+      "authors": [
+        "Michael Winning"
+      ],
+      "year": 2026,
+      "isbn": null,
+      "list": "about",
+      "category": "money-economics",
+      "bitcoin_relevance": "Listed in the Nakamoto Library (nakamotolibrary.org, an index of books published about Bitcoin) - treated as evidence the book is about Bitcoin.",
+      "source_url": "https://nakamotolibrary.org/the-most-american-idea",
+      "source_label": "Nakamoto Library",
+      "language": "eng",
+      "confidence": "nakamoto-library",
+      "evidence_type": "nakamoto-library"
     }
   ]
 }

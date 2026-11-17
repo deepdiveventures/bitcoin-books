@@ -38,8 +38,9 @@ EVIDENCE = {
     "fulltext-moderate",
     "fulltext-single",
     "x-post",
+    "nakamoto-library",
 }
-CONFIDENCE = {"library-verified", "x-reference-only"}
+CONFIDENCE = {"library-verified", "x-reference-only", "nakamoto-library"}
 REQUIRED = [
     "id",
     "title",
@@ -138,6 +139,19 @@ def validate_data() -> tuple[list[str], dict]:
             fail(errors, f"{where} confidence {confidence!r} is invalid")
         if list_name == "referenced" and evidence not in {"x-post", "fulltext-single"}:
             fail(errors, f"{where} referenced entry needs x-post or single-passage evidence")
+        if evidence == "nakamoto-library" and "nakamotolibrary.org" not in (book.get("source_url") or ""):
+            extras = book.get("also_sources") or []
+            if not any("nakamotolibrary.org" in (item.get("url") or "") for item in extras):
+                fail(errors, f"{where} nakamoto-library evidence needs a Nakamoto Library URL")
+        extras = book.get("also_sources")
+        if extras is not None:
+            if not isinstance(extras, list):
+                fail(errors, f"{where} also_sources must be a list")
+            else:
+                for item in extras:
+                    extra_url = item.get("url") if isinstance(item, dict) else ""
+                    if not isinstance(extra_url, str) or "amazon." in extra_url or not extra_url.startswith("https://"):
+                        fail(errors, f"{where} also_sources has a bad url")
         if list_name == "mentions" and evidence not in {"description-or-contents", "fulltext-strong", "fulltext-moderate"}:
             fail(errors, f"{where} mentions entry has evidence_type {evidence!r}")
         relevance = book.get("bitcoin_relevance")
@@ -147,7 +161,7 @@ def validate_data() -> tuple[list[str], dict]:
             fail(errors, f"{where} bitcoin_relevance is longer than 400 characters")
         source = book.get("source_url")
         if not isinstance(source, str) or not re.match(
-            r"https://(openlibrary\.org/|archive\.org/|www\.loc\.gov/|lccn\.loc\.gov/|x\.com/)",
+            r"https://(openlibrary\.org/|archive\.org/|www\.loc\.gov/|lccn\.loc\.gov/|x\.com/|nakamotolibrary\.org/)",
             source or "",
         ):
             fail(errors, f"{where} source_url must be an Open Library, Internet Archive, Library of Congress, or X https URL")

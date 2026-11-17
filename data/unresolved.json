@@ -38,79 +38,6 @@
       ]
     },
     {
-      "title": "Bitcoin Development Philosophy",
-      "authors": [
-        "Linnéa Rosenbaum",
-        "Kalle Rosenbaum"
-      ],
-      "year": 2024,
-      "isbn": "9789916723593",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9789916723593 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9789916723593",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916723593",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "The Price of Tomorrow",
-      "authors": [
-        "Jeff Booth"
-      ],
-      "year": 2020,
-      "isbn": "9781999257415",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9781999257415 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9781999257415",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9781999257415",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "Bitcoin: Everything Divided by 21 Million",
-      "authors": [
-        "Knut Svanholm"
-      ],
-      "year": 2022,
-      "isbn": "9789916697207",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9789916697207 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9789916697207",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9789916697207",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "American Kingpin",
-      "authors": [
-        "Nick Bilton"
-      ],
-      "year": 2017,
-      "isbn": "9780753548004",
-      "candidate_origin": "prior_catalog",
-      "reason": "Open Library edition for ISBN 9780753548004 (American Kingpin) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9780753548004",
-          "url": "https://openlibrary.org/isbn/9780753548004.json",
-          "result": "Edition retrieved (American Kingpin); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
-        }
-      ]
-    },
-    {
       "title": "Number Go Up",
       "authors": [
         "Zeke Faux"
@@ -402,42 +329,6 @@
       ]
     },
     {
-      "title": "The Big Print",
-      "authors": [
-        "Lawrence Lepard"
-      ],
-      "year": 2024,
-      "isbn": "9798992242508",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9798992242508 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9798992242508",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9798992242508",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "The Hidden Cost of Money",
-      "authors": [
-        "Sebastian Bunney"
-      ],
-      "year": 2023,
-      "isbn": "9781738934102",
-      "candidate_origin": "prior_catalog",
-      "reason": "Open Library edition for ISBN 9781738934102 (Hidden Cost of Money) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9781738934102",
-          "url": "https://openlibrary.org/isbn/9781738934102.json",
-          "result": "Edition retrieved (Hidden Cost of Money); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
-        }
-      ]
-    },
-    {
       "title": "Great Chain of Numbers",
       "authors": [
         "Tim Swanson"
@@ -710,25 +601,6 @@
       ]
     },
     {
-      "title": "The Gospel According to Bitcoin",
-      "authors": [
-        "Daniel Sherman",
-        "Jordan Bush"
-      ],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "prior_catalog",
-      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "title:\"The Gospel According to Bitcoin\"",
-          "url": "https://openlibrary.org/search.json?q=title%3A%22The%20Gospel%20According%20to%20Bitcoin%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
-          "result": "numFound=0; first title=None"
-        }
-      ]
-    },
-    {
       "title": "21 Futures: Financial Fallout",
       "authors": [
         "21 Futures (various)"
@@ -743,42 +615,6 @@
           "query": "title:\"21 Futures: Financial Fallout\"",
           "url": "https://openlibrary.org/search.json?q=title%3A%2221%20Futures%3A%20Financial%20Fallout%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
           "result": "numFound=0; first title=None"
-        }
-      ]
-    },
-    {
-      "title": "The Internet of Money Volume Three",
-      "authors": [
-        "Andreas M. Antonopoulos"
-      ],
-      "year": 2019,
-      "isbn": "9781947910171",
-      "candidate_origin": "prior_catalog",
-      "reason": "Open Library edition for ISBN 9781947910171 (The Internet of Money Volume Three) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9781947910171",
-          "url": "https://openlibrary.org/isbn/9781947910171.json",
-          "result": "Edition retrieved (The Internet of Money Volume Three); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
-        }
-      ]
-    },
-    {
-      "title": "Digital Real Estate",
-      "authors": [
-        "Viktor Weber"
-      ],
-      "year": 2023,
-      "isbn": "9781138086272",
-      "candidate_origin": "prior_catalog",
-      "reason": "Open Library edition for ISBN 9781138086272 (Digital Real Estate) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9781138086272",
-          "url": "https://openlibrary.org/isbn/9781138086272.json",
-          "result": "Edition retrieved (Digital Real Estate); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
         }
       ]
     },
@@ -933,22 +769,6 @@
       ]
     },
     {
-      "title": "Bitcoin Mining Heat Reuse",
-      "authors": [],
-      "year": 2025,
-      "isbn": "9788090925328",
-      "candidate_origin": "prior_catalog",
-      "reason": "Open Library search returned /works/OL42780894W “Bitcoin Mining Heat Reuse” for ISBN 9788090925328. Bitcoin is not in the title or subject headings, and no chapter or passage evidence was fetched.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9788090925328",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9788090925328",
-          "result": "Work /works/OL42780894W “Bitcoin Mining Heat Reuse” returned; subjects [] do not establish a Bitcoin subject or chapter."
-        }
-      ]
-    },
-    {
       "title": "Bitcoin : guía completa de la moneda del futuro - 1. edición",
       "authors": [],
       "year": 2016,
@@ -1015,24 +835,6 @@
       ]
     },
     {
-      "title": "Bitcoin: The Honest Money",
-      "authors": [
-        "Alex von Frankenberg"
-      ],
-      "year": 2026,
-      "isbn": "9798999954268",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9798999954268 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9798999954268",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9798999954268",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
       "title": "The Bitcoin Tao",
       "authors": [
         "Zach Wischler"
@@ -1064,42 +866,6 @@
           "source": "openlibrary",
           "query": "isbn:9798282739473",
           "url": "https://openlibrary.org/search.json?q=isbn%3A9798282739473",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "Would Mao Hold Bitcoin?",
-      "authors": [
-        "Roger Huang"
-      ],
-      "year": 2024,
-      "isbn": "9798989132652",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9798989132652 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9798989132652",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9798989132652",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "The Bitcoin Miner's Almanac",
-      "authors": [
-        "Robert Warren"
-      ],
-      "year": 2024,
-      "isbn": "9798989132638",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9798989132638 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9798989132638",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9798989132638",
           "result": "ISBN not present in the Open Library search results collected for this catalogue."
         }
       ]
@@ -1154,24 +920,6 @@
           "source": "openlibrary",
           "query": "isbn:9789916749388",
           "url": "https://openlibrary.org/search.json?q=isbn%3A9789916749388",
-          "result": "ISBN not present in the Open Library search results collected for this catalogue."
-        }
-      ]
-    },
-    {
-      "title": "Bitcoin Evangelism",
-      "authors": [
-        "Brian E. de Mint"
-      ],
-      "year": 2022,
-      "isbn": "9798986346304",
-      "candidate_origin": "prior_catalog",
-      "reason": "ISBN 9798986346304 was not found in Open Library search, and no kept catalogue record matched this candidate title and author. Library of Congress was searched by the keyword bitcoin rather than by this ISBN.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "isbn:9798986346304",
-          "url": "https://openlibrary.org/search.json?q=isbn%3A9798986346304",
           "result": "ISBN not present in the Open Library search results collected for this catalogue."
         }
       ]
@@ -1557,24 +1305,6 @@
       ]
     },
     {
-      "title": "(L)earn Bitcoin",
-      "authors": [
-        "Posch"
-      ],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "prior_catalog",
-      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "title:\"(L)earn Bitcoin\"",
-          "url": "https://openlibrary.org/search.json?q=title%3A%22%28L%29earn%20Bitcoin%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
-          "result": "numFound=0; first title=None"
-        }
-      ]
-    },
-    {
       "title": "The Satoshi Era",
       "authors": [],
       "year": null,
@@ -1604,24 +1334,6 @@
           "source": "openlibrary",
           "query": "title:\"Bitcoin for Institutions\"",
           "url": "https://openlibrary.org/search.json?q=title%3A%22Bitcoin%20for%20Institutions%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
-          "result": "numFound=0; first title=None"
-        }
-      ]
-    },
-    {
-      "title": "Exponential Gold",
-      "authors": [
-        "Dragosch"
-      ],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "prior_catalog",
-      "reason": "The candidate has no ISBN. An Open Library title search did not yield a record that could be kept under the catalogue’s evidence rules.",
-      "searches": [
-        {
-          "source": "openlibrary",
-          "query": "title:\"Exponential Gold\"",
-          "url": "https://openlibrary.org/search.json?q=title%3A%22Exponential%20Gold%22&limit=10&page=1&fields=key,title,subtitle,author_name,first_publish_year,isbn,subject,language,edition_count,publisher,number_of_pages_median",
           "result": "numFound=0; first title=None"
         }
       ]
@@ -4568,22 +4280,6 @@
       ]
     },
     {
-      "title": "The Book of Max",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "The Book of Max",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
       "title": "Bitcoin Calendar 2018",
       "authors": [],
       "year": null,
@@ -5362,22 +5058,6 @@
         {
           "source": "internet-archive",
           "query": "Satoshi",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Downloading Divinity...",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Downloading Divinity...",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }
@@ -7378,22 +7058,6 @@
         {
           "source": "internet-archive",
           "query": "Embedded Digital Money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "National Security in the Digital Age",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "National Security in the Digital Age",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }
@@ -9832,22 +9496,6 @@
       ]
     },
     {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
       "title": "History of coinage and currency in the United States and the perennial contest for sound money",
       "authors": [],
       "year": null,
@@ -9858,86 +9506,6 @@
         {
           "source": "internet-archive",
           "query": "History of coinage and currency in the United States and the perennial contest for sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }
@@ -10008,22 +9576,6 @@
       ]
     },
     {
-      "title": "Sound Money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound Money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
       "title": "Gold Wars",
       "authors": [],
       "year": null,
@@ -10050,22 +9602,6 @@
         {
           "source": "internet-archive",
           "query": "Good As Gold",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "\"Sound money\"",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "\"Sound money\"",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }
@@ -10856,38 +10392,6 @@
       ]
     },
     {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "Sound money",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "Sound money",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
       "title": "Energy of Human Action",
       "authors": [],
       "year": null,
@@ -11330,22 +10834,6 @@
         {
           "source": "internet-archive",
           "query": "The march to victory",
-          "url": null,
-          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
-        }
-      ]
-    },
-    {
-      "title": "\"Sound money\"",
-      "authors": [],
-      "year": null,
-      "isbn": null,
-      "candidate_origin": "pass3-excluded",
-      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
-      "searches": [
-        {
-          "source": "internet-archive",
-          "query": "\"Sound money\"",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }
@@ -12514,6 +12002,200 @@
         {
           "source": "internet-archive",
           "query": "Fiat Food",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Digital Real Estate",
+      "authors": [
+        "Viktor Weber"
+      ],
+      "year": 2023,
+      "isbn": "9781138086272",
+      "candidate_origin": "prior_catalog",
+      "reason": "Open Library edition for ISBN 9781138086272 (Digital Real Estate) was fetched. The record does not show Bitcoin as a subject heading, in the title or subtitle, or as a chapter, passage, or case study.",
+      "searches": [
+        {
+          "source": "openlibrary",
+          "query": "isbn:9781138086272",
+          "url": "https://openlibrary.org/isbn/9781138086272.json",
+          "result": "Edition retrieved (Digital Real Estate); Bitcoin was not in the title, subtitle, subjects, description, or table of contents."
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound Money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound Money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "\"Sound money\"",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "\"Sound money\"",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "Sound money",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "Sound money",
+          "url": null,
+          "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
+        }
+      ]
+    },
+    {
+      "title": "\"Sound money\"",
+      "authors": [],
+      "year": null,
+      "isbn": null,
+      "candidate_origin": "pass3-excluded",
+      "reason": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects",
+      "searches": [
+        {
+          "source": "internet-archive",
+          "query": "\"Sound money\"",
           "url": null,
           "result": "surfaced by keyword query but no Bitcoin/crypto evidence in title or subjects"
         }

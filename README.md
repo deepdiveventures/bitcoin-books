@@ -9,18 +9,20 @@ Definitive coverage is the aim, not a claim this list has reached it. Anything t
 
 ## Counts on 2026-11-17
 
-About: **1884**
+About: **1971**
 
 | Category | Books |
 | --- | ---: |
-| money-economics | 1015 |
-| technical | 276 |
-| history | 31 |
-| investing | 494 |
-| fiction | 23 |
-| other | 45 |
+| money-economics | 1063 |
+| technical | 285 |
+| history | 38 |
+| investing | 506 |
+| fiction | 25 |
+| other | 54 |
 
-Mentions: **889** (strong or moderate full-text passages, plus the three earlier description or contents entries). Referenced, not yet verified: **736** (X references and single full-text passages). Unresolved items: **756**, including library records with no Bitcoin evidence and excluded non-books.
+These category totals are filled in after the Nakamoto Library pass; `scripts/validate.py` prints the exact figures. Mentions: **889**. Referenced, not yet verified: **730**. Unresolved items: **738**.
+
+A Nakamoto Library page (nakamotolibrary.org) is evidence that a listed book is about Bitcoin. The page URL is `source_url` for books known from that library, or `also_sources` when a library record was already the main source. Amazon links and ASINs are not stored. An ISBN-10 printed on a Nakamoto page is kept only after it converts to a valid ISBN-13.
 
 `other` is law, regulation, religion, philosophy, dictionaries, and records that do not fit the named categories. A translation keeps its own entry. When the library records show the same author and the foreign title is the English title’s wording, the entry links to that English edition. A missing author or year is stored as an empty list or null and shown as Unknown.
 

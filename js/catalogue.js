@@ -146,6 +146,15 @@
     link.textContent = book.source_label || "Source";
     link.rel = "noreferrer";
     source.appendChild(link);
+    (book.also_sources || []).forEach(function (extra) {
+      if (!extra || !extra.url) return;
+      source.appendChild(document.createTextNode(" · "));
+      var extraLink = document.createElement("a");
+      extraLink.href = extra.url;
+      extraLink.textContent = extra.label || "Also";
+      extraLink.rel = "noreferrer";
+      source.appendChild(extraLink);
+    });
     article.appendChild(source);
     return article;
   }
