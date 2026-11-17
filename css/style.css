@@ -137,6 +137,13 @@ input:focus, select:focus {
   font-weight: 500;
 }
 
+.section-note {
+  margin: 0.35rem 0 0.2rem;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.92rem;
+}
+
 .book {
   content-visibility: auto;
   contain-intrinsic-size: auto 140px;

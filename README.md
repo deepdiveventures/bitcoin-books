@@ -9,20 +9,20 @@ Definitive coverage is the aim, not a claim this list has reached it. Anything t
 
 ## Counts on 2026-11-17
 
-About: **1867**
+About: **1884**
 
 | Category | Books |
 | --- | ---: |
-| money-economics | 1011 |
-| technical | 275 |
+| money-economics | 1015 |
+| technical | 276 |
 | history | 31 |
-| investing | 490 |
+| investing | 494 |
 | fiction | 23 |
-| other | 37 |
+| other | 45 |
 
-Mentions: **3**. Unresolved items: **97** (the seed title, prior candidates that could not be supported, and short notes on records set aside as non-books, authorless, or undated).
+Mentions: **889** (strong or moderate full-text passages, plus the three earlier description or contents entries). Referenced, not yet verified: **736** (X references and single full-text passages). Unresolved items: **756**, including library records with no Bitcoin evidence and excluded non-books.
 
-`other` is the leftover: law and regulation, religion, philosophy, dictionaries, and a few records whose title is not in Latin script. General Bitcoin books, buying guides, and technical books are in the named categories. A translation keeps its own entry. When the library records show the same author and the foreign title is the English title’s wording, the entry links to that English edition.
+`other` is law, regulation, religion, philosophy, dictionaries, and records that do not fit the named categories. A translation keeps its own entry. When the library records show the same author and the foreign title is the English title’s wording, the entry links to that English edition. A missing author or year is stored as an empty list or null and shown as Unknown.
 
 ## What was consulted
 
@@ -79,32 +79,38 @@ Editions, subtitle variants, and ISBN variants of the same work were collapsed t
 | `id` | yes | Stable slug. Unique. |
 | `title` | yes | Title from the record. A subtitle that was stored in the title field is left there. |
 | `subtitle` | no | Separate subtitle when the record has one. `null` if absent. |
-| `authors` | yes | Non-empty list. Narrators and translators are dropped. |
-| `year` | yes | Earliest supported publication year, 2008–2026. |
+| `authors` | yes | List of names. Empty means Unknown. Do not guess. |
+| `year` | yes | Publication year, or `null` when the record has none. Do not guess. |
 | `isbn` | yes | One ISBN-13 when a valid one was present, otherwise `null`. |
-| `list` | yes | `about` or `mentions`. |
-| `category` | yes | For `about`: `money-economics`, `technical`, `history`, `investing`, `fiction`, or `other`. For `mentions`: `null`. |
-| `bitcoin_relevance` | yes | One line stating the evidence. |
-| `source_url` | yes | The Open Library or Library of Congress record that supports the line. |
+| `list` | yes | `about`, `mentions`, or `referenced`. |
+| `category` | yes | For `about`: `money-economics`, `technical`, `history`, `investing`, `fiction`, or `other`. For `mentions`: `null`. For `referenced`: one of those categories, or `null`. |
+| `bitcoin_relevance` | yes | One line stating the evidence. Full-text rows quote a short passage. |
+| `source_url` | yes | Open Library, Internet Archive, Library of Congress, or an X status URL. |
 | `source_label` | no | Human label for the link. |
-| `language` | no | Open Library language code when the record has one. |
+| `language` | no | Language code when the record has one. |
+| `confidence` | yes | `library-verified` or `x-reference-only`. |
+| `evidence_type` | yes | `library-record`, `title-or-subject`, `description-or-contents`, `fulltext-strong`, `fulltext-moderate`, `fulltext-single`, or `x-post`. |
+| `mention_strength` | no | `strong`, `moderate`, or `single-passage` on full-text rows. |
+| `x_posts` | no | X status URLs when a post is part of the evidence. |
 
 `generated_at` is the date the files were built. The page shows that date as “Last updated”.
 
-[`data/unresolved.json`](data/unresolved.json) uses the same `generated_at`. Each item has `title`, `authors`, `year`, `isbn`, `candidate_origin` (`seed`, `prior_catalog`, or `exclusion_summary`), `reason`, and `searches` (source, query, URL, and what came back). Exclusion summaries have a null title and describe records that were set aside as a group.
+[`data/unresolved.json`](data/unresolved.json) uses the same `generated_at`. Each item has `title`, `authors`, `year`, `isbn`, `candidate_origin`, `reason`, and `searches`. It holds prior candidates that still lack evidence, library records that never name Bitcoin, and excluded non-books. The seed title is published under Referenced, not left only here.
 
 ## How to add a book
 
 1. Find a record on Open Library, the Library of Congress, or the Google Books API (no key). The record has to be fetched, not guessed.
 2. Decide the list from that record only:
-   - **about** if Bitcoin is the subject or a major subject (subject heading, or the title/subtitle, or a description of the whole book);
-   - **mentions** only if a table of contents, description, or note documents a chapter, passage, or case study;
+   - **about** if Bitcoin is the subject or a major subject (subject heading, title or subtitle, or a description of the whole book);
+   - **mentions** if a table of contents, description, or at least two full-text passages discuss Bitcoin;
+   - **referenced** if the only support is an X post, or a single full-text passage;
    - otherwise add an item to `data/unresolved.json` and stop.
-3. If an entry with the same author and title (ignoring subtitle and ISBN) is already in `books`, merge into that entry instead of adding another.
-4. Set `category` only for `about`. Use the record’s subjects and title, in this order: fiction; history (including war, battle, biography, “the story of”); technical (programming, protocol, Lightning, cryptography); investing; law, religion, or philosophy as `other`; money and economics; otherwise `other`.
-5. Write `bitcoin_relevance` as one sentence a reader could check on `source_url`.
-6. Bump `generated_at` on both JSON files if the update is part of a new build.
-7. Run `python3 scripts/validate.py`. Use `python3 scripts/validate.py --spotcheck` when you can reach the source sites.
+3. Set `confidence` and `evidence_type`. Do not invent an author or a year; leave them empty or null.
+4. If an entry with the same author and title (ignoring subtitle and ISBN) is already in `books`, merge into that entry instead of adding another.
+5. Set `category` for `about`, and for `referenced` when the record supports one. Use fiction, then history, technical, investing, then law, religion, or philosophy as `other`, then money and economics.
+6. Write `bitcoin_relevance` as one sentence a reader could check on `source_url`.
+7. Bump `generated_at` on both JSON files if the update is part of a new build.
+8. Run `python3 scripts/validate.py`. Use `python3 scripts/validate.py --spotcheck` when you can reach the source sites.
 
 ## The page
 
@@ -118,11 +124,11 @@ python3 -m http.server 8765
 
 Then open `http://127.0.0.1:8765/`.
 
-Search matches title, subtitle, authors, ISBN, the relevance line, and language. The year boxes are an inclusive range. The category control filters the About list only. Both counts are the number of rows currently shown in each list.
+Search matches title, subtitle, authors, ISBN, the relevance line, and language. The year boxes are an inclusive range; a row with no year stays hidden while a year bound is set. Category filters About and Referenced. The three counts are the rows currently shown in each list. The referenced section is labeled as not yet verified.
 
 ## Checks
 
-`scripts/validate.py` checks required fields, ISBN-13 checksums, list and category values, source URLs, duplicate ids, duplicate ISBNs, duplicate title/author/year rows, the seed staying in the unresolved file, and that the page computes both counts from the loaded data instead of hardcoding them.
+`scripts/validate.py` checks required fields, ISBN-13 checksums, list and category values, confidence and evidence type, source URLs, duplicate ids, duplicate ISBNs, duplicate title/author/year rows, and that the page computes all three counts from the loaded data.
 
 ## Publishing later with GitHub Pages
 

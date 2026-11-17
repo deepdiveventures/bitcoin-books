@@ -23,6 +23,7 @@
     yearTo: document.getElementById("year-to"),
     countAbout: document.getElementById("count-about"),
     countMentions: document.getElementById("count-mentions"),
+    countReferenced: document.getElementById("count-referenced"),
     countNote: document.getElementById("count-note"),
     results: document.getElementById("results"),
     status: document.getElementById("status"),
@@ -61,27 +62,41 @@
       ].join(" ").toLowerCase();
       if (hay.indexOf(q) === -1) return false;
     }
-    if (current.yearFrom !== null && book.year < current.yearFrom) return false;
-    if (current.yearTo !== null && book.year > current.yearTo) return false;
+    if (current.yearFrom !== null || current.yearTo !== null) {
+      if (book.year == null) return false;
+      if (current.yearFrom !== null && book.year < current.yearFrom) return false;
+      if (current.yearTo !== null && book.year > current.yearTo) return false;
+    }
     return true;
+  }
+
+  function byYear(a, b) {
+    if (a.year == null && b.year == null) return String(a.title).localeCompare(String(b.title));
+    if (a.year == null) return 1;
+    if (b.year == null) return -1;
+    return a.year - b.year || String(a.title).localeCompare(String(b.title));
   }
 
   function visibleLists(current) {
     var about = [];
     var mentions = [];
+    var referenced = [];
     var i;
     for (i = 0; i < books.length; i += 1) {
       var book = books[i];
       if (!matches(book, current)) continue;
       if (book.list === "about") about.push(book);
       else if (book.list === "mentions") mentions.push(book);
+      else if (book.list === "referenced") referenced.push(book);
     }
     if (current.category !== "all") {
       about = about.filter(function (book) { return book.category === current.category; });
+      referenced = referenced.filter(function (book) { return book.category === current.category; });
     }
-    if (current.list === "about") mentions = [];
-    if (current.list === "mentions") about = [];
-    return { about: about, mentions: mentions };
+    if (current.list === "about") { mentions = []; referenced = []; }
+    if (current.list === "mentions") { about = []; referenced = []; }
+    if (current.list === "referenced") { about = []; mentions = []; }
+    return { about: about, mentions: mentions, referenced: referenced };
   }
 
   function el(tag, className, text) {
@@ -95,13 +110,16 @@
     var article = el("article", "book");
     if (book.id) article.id = book.id;
     var meta = el("p", "meta");
-    meta.appendChild(el("span", "year", String(book.year)));
+    meta.appendChild(el("span", "year", book.year == null ? "Unknown" : String(book.year)));
     if (book.list === "about" && categoryLabel[book.category]) {
       meta.appendChild(document.createTextNode(" · "));
       meta.appendChild(el("span", "cat", categoryLabel[book.category]));
     } else if (book.list === "mentions") {
       meta.appendChild(document.createTextNode(" · "));
-      meta.appendChild(el("span", "cat", "Mention"));
+      meta.appendChild(el("span", "cat", book.mention_strength === "strong" ? "Strong mention" : "Mention"));
+    } else if (book.list === "referenced") {
+      meta.appendChild(document.createTextNode(" · "));
+      meta.appendChild(el("span", "cat", book.evidence_type === "x-post" ? "X reference only" : "Single passage"));
     }
     if (book.language && book.language !== "eng") {
       meta.appendChild(document.createTextNode(" · "));
@@ -110,7 +128,7 @@
     article.appendChild(meta);
     article.appendChild(el("h3", null, book.title));
     if (book.subtitle) article.appendChild(el("p", "subtitle", book.subtitle));
-    article.appendChild(el("p", "authors", (book.authors || []).join(", ")));
+    article.appendChild(el("p", "authors", (book.authors && book.authors.length) ? book.authors.join(", ") : "Unknown"));
     if (book.original_title && book.original_id) {
       var original = el("p", "original");
       original.appendChild(document.createTextNode("English edition in this catalogue: "));
@@ -147,17 +165,20 @@
     var lists = visibleLists(current);
     els.countAbout.textContent = String(lists.about.length);
     els.countMentions.textContent = String(lists.mentions.length);
+    els.countReferenced.textContent = String(lists.referenced.length);
     els.category.disabled = current.list === "mentions";
-    if (current.category !== "all" && current.list !== "mentions") {
-      els.countNote.textContent = "Category filters the About list.";
-    } else if (current.list === "mentions") {
-      els.countNote.textContent = "Mentions have no category.";
+    if (current.list === "mentions") {
+      els.countNote.textContent = "Mentions have no category. Strong and moderate full-text passages are listed here.";
+    } else if (current.list === "referenced" || lists.referenced.length) {
+      els.countNote.textContent = "Referenced entries are not fully verified. Category filters About and Referenced.";
+    } else if (current.category !== "all") {
+      els.countNote.textContent = "Category filters About and Referenced.";
     } else {
       els.countNote.textContent = "";
     }
 
     els.results.replaceChildren();
-    if (!lists.about.length && !lists.mentions.length) {
+    if (!lists.about.length && !lists.mentions.length && !lists.referenced.length) {
       els.results.appendChild(el("p", "empty", "No books match these filters."));
       return;
     }
@@ -170,10 +191,14 @@
       });
     }
     if (lists.mentions.length) {
-      var mentions = lists.mentions.slice().sort(function (a, b) {
-        return a.year - b.year || String(a.title).localeCompare(String(b.title));
-      });
-      els.results.appendChild(renderGroup("Mentions", mentions));
+      els.results.appendChild(renderGroup("Mentions", lists.mentions.slice().sort(byYear)));
+    }
+    if (lists.referenced.length) {
+      var referenced = lists.referenced.slice().sort(byYear);
+      var section = renderGroup("Referenced, not yet verified", referenced);
+      var note = el("p", "section-note", "X references have no confirmed library record. Single-passage rows are one full-text hit, not a confirmed chapter.");
+      section.insertBefore(note, section.children[1] || null);
+      els.results.appendChild(section);
     }
   }
 

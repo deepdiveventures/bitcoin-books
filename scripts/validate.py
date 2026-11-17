@@ -29,7 +29,17 @@ CATEGORIES = {
     "fiction",
     "other",
 }
-LISTS = {"about", "mentions"}
+LISTS = {"about", "mentions", "referenced"}
+EVIDENCE = {
+    "library-record",
+    "description-or-contents",
+    "title-or-subject",
+    "fulltext-strong",
+    "fulltext-moderate",
+    "fulltext-single",
+    "x-post",
+}
+CONFIDENCE = {"library-verified", "x-reference-only"}
 REQUIRED = [
     "id",
     "title",
@@ -96,12 +106,12 @@ def validate_data() -> tuple[list[str], dict]:
         if not isinstance(title, str) or not title.strip():
             fail(errors, f"{where} title must be a non-empty string")
         authors = book.get("authors")
-        if not isinstance(authors, list) or not authors or not all(isinstance(a, str) and a.strip() for a in authors):
-            fail(errors, f"{where} authors must be a non-empty list of strings")
+        if not isinstance(authors, list) or not all(isinstance(a, str) and a.strip() for a in authors):
+            fail(errors, f"{where} authors must be a list of strings")
             authors = []
         year = book.get("year")
-        if not isinstance(year, int) or not 2008 <= year <= 2026:
-            fail(errors, f"{where} year must be an integer from 2008 to 2026")
+        if year is not None and (not isinstance(year, int) or not 1000 <= year <= 2026):
+            fail(errors, f"{where} year must be null or an integer from 1000 to 2026")
         isbn = book.get("isbn")
         if isbn is not None:
             if not isinstance(isbn, str) or not isbn13_ok(isbn):
@@ -118,14 +128,29 @@ def validate_data() -> tuple[list[str], dict]:
             fail(errors, f"{where} about entry has invalid category {category!r}")
         if list_name == "mentions" and category is not None:
             fail(errors, f"{where} mentions entry must have category null")
+        if list_name == "referenced" and category is not None and category not in CATEGORIES:
+            fail(errors, f"{where} referenced entry has invalid category {category!r}")
+        evidence = book.get("evidence_type")
+        confidence = book.get("confidence")
+        if evidence not in EVIDENCE:
+            fail(errors, f"{where} evidence_type {evidence!r} is invalid")
+        if confidence not in CONFIDENCE:
+            fail(errors, f"{where} confidence {confidence!r} is invalid")
+        if list_name == "referenced" and evidence not in {"x-post", "fulltext-single"}:
+            fail(errors, f"{where} referenced entry needs x-post or single-passage evidence")
+        if list_name == "mentions" and evidence not in {"description-or-contents", "fulltext-strong", "fulltext-moderate"}:
+            fail(errors, f"{where} mentions entry has evidence_type {evidence!r}")
         relevance = book.get("bitcoin_relevance")
         if not isinstance(relevance, str) or not relevance.strip() or "\n" in relevance:
             fail(errors, f"{where} bitcoin_relevance must be one non-empty line")
         elif len(relevance) > 400:
             fail(errors, f"{where} bitcoin_relevance is longer than 400 characters")
         source = book.get("source_url")
-        if not isinstance(source, str) or not re.match(r"https://(openlibrary\.org/|www\.loc\.gov/|lccn\.loc\.gov/)", source or ""):
-            fail(errors, f"{where} source_url must be an Open Library or Library of Congress https URL")
+        if not isinstance(source, str) or not re.match(
+            r"https://(openlibrary\.org/|archive\.org/|www\.loc\.gov/|lccn\.loc\.gov/|x\.com/)",
+            source or "",
+        ):
+            fail(errors, f"{where} source_url must be an Open Library, Internet Archive, Library of Congress, or X https URL")
         ident = book.get("id")
         if not isinstance(ident, str) or not ident:
             fail(errors, f"{where} id must be a non-empty string")
@@ -138,8 +163,8 @@ def validate_data() -> tuple[list[str], dict]:
             fail(errors, f"{where} duplicate title/author/year/list {identity}")
         else:
             seen_identity.add(identity)
-        if re.search(r"second survivability problem", title or "", re.I):
-            fail(errors, f"{where} seed title was published without a resolved record")
+        if re.search(r"second survivability problem", title or "", re.I) and list_name != "referenced":
+            fail(errors, f"{where} seed title must stay in the referenced section")
         original_id = book.get("original_id")
         if original_id is not None:
             if not isinstance(original_id, str) or not book.get("original_title"):
@@ -157,11 +182,6 @@ def validate_data() -> tuple[list[str], dict]:
     if not isinstance(items, list) or not items:
         fail(errors, "unresolved.json items must be a non-empty list")
     else:
-        seed = [item for item in items if isinstance(item, dict) and item.get("candidate_origin") == "seed"]
-        if len(seed) != 1:
-            fail(errors, "unresolved.json must contain exactly one seed item")
-        elif not seed[0].get("searches"):
-            fail(errors, "seed item must record the searches")
         for index, item in enumerate(items):
             if not isinstance(item, dict):
                 fail(errors, f"unresolved[{index}] is not an object")
@@ -178,7 +198,7 @@ def validate_page(catalogue: dict) -> list[str]:
     errors: list[str] = []
     html = HTML_PATH.read_text(encoding="utf-8")
     js = JS_PATH.read_text(encoding="utf-8")
-    for needed in ("count-about", "count-mentions", 'href="css/style.css"', 'src="js/catalogue.js"', "data/books.json"):
+    for needed in ("count-about", "count-mentions", "count-referenced", 'href="css/style.css"', 'src="js/catalogue.js"', "data/books.json"):
         if needed not in html and needed not in js:
             fail(errors, f"page is missing {needed}")
     if re.search(r"https?://(cdn|unpkg|jsdelivr|googleapis|gstatic|bootstrap)", html + js, re.I):
@@ -188,10 +208,10 @@ def validate_page(catalogue: dict) -> list[str]:
     for category in sorted(CATEGORIES):
         if category not in js:
             fail(errors, f"catalogue.js is missing category {category}")
-    if "lists.about.length" not in js or "lists.mentions.length" not in js:
-        fail(errors, "catalogue.js must set both counts from the filtered lists")
-    if "countAbout.textContent" not in js or "countMentions.textContent" not in js:
-        fail(errors, "catalogue.js must write both count elements")
+    if "lists.about.length" not in js or "lists.mentions.length" not in js or "lists.referenced.length" not in js:
+        fail(errors, "catalogue.js must set all three counts from the filtered lists")
+    if "countAbout.textContent" not in js or "countMentions.textContent" not in js or "countReferenced.textContent" not in js:
+        fail(errors, "catalogue.js must write all three count elements")
     # The page must not bake in totals. Counts come from the loaded JSON.
     hardcoded = re.findall(r"\b(?:1[0-9]{3}|[1-9][0-9]{2})\s+books\b", html)
     if hardcoded:
@@ -199,8 +219,9 @@ def validate_page(catalogue: dict) -> list[str]:
     books = catalogue["books"]
     about = sum(1 for book in books if book["list"] == "about")
     mentions = sum(1 for book in books if book["list"] == "mentions")
+    referenced = sum(1 for book in books if book["list"] == "referenced")
     by_category = Counter(book["category"] for book in books if book["list"] == "about")
-    if about + mentions != len(books):
+    if about + mentions + referenced != len(books):
         fail(errors, "list values do not partition the catalogue")
     if sum(by_category.values()) != about:
         fail(errors, "category counts do not add up to the about list")
@@ -211,6 +232,7 @@ def validate_page(catalogue: dict) -> list[str]:
     for category in ["money-economics", "technical", "history", "investing", "fiction", "other"]:
         print(f"  {category} {by_category[category]}")
     print(f"mentions {mentions}")
+    print(f"referenced {referenced}")
     print(f"unresolved {len(json.loads(UNRESOLVED_PATH.read_text(encoding='utf-8'))['items'])}")
     return errors
 
