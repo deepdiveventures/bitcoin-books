@@ -42,6 +42,15 @@
           <option value="other">Other</option>
         </select>
       </div>
+      <div class="field">
+        <label for="sort">Sort</label>
+        <select id="sort" name="sort">
+          <option value="year">Year</option>
+          <option value="gr-count">Most Goodreads ratings</option>
+          <option value="gr-avg">Highest Goodreads average</option>
+          <option value="ol-want">Most Open Library want-to-read</option>
+        </select>
+      </div>
       <div class="field field-year">
         <label for="year-from">Year from</label>
         <input id="year-from" name="year-from" type="number" inputmode="numeric" min="2008" max="2026" placeholder="2008">
@@ -64,7 +73,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Definitive coverage is the aim, not a claim. About and mentions come from Open Library, the Internet Archive full-text index, or the Library of Congress. Referenced entries are not fully verified. Category filters About and Referenced. Search and year filter every list. A missing author or year is shown as Unknown.</p>
+    <p>Definitive coverage is the aim, not a claim. About and mentions come from Open Library, the Internet Archive full-text index, the Library of Congress, or the Nakamoto Library. Referenced entries are not fully verified. Summaries and ratings were fetched <time id="enriched">2026-11-17</time>. Goodreads coverage is partial. Google Books summaries were not available. Category filters About and Referenced. Search, year, and sort apply to the rows on screen. A missing author or year is shown as Unknown.</p>
   </footer>
 
   <noscript><p>This catalogue needs JavaScript to load <code>data/books.json</code> and filter it in the browser.</p></noscript>

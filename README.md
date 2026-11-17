@@ -9,18 +9,20 @@ Definitive coverage is the aim, not a claim this list has reached it. Anything t
 
 ## Counts on 2026-11-17
 
-About: **1971**
+About: **1966**
 
 | Category | Books |
 | --- | ---: |
-| money-economics | 1063 |
+| money-economics | 1061 |
 | technical | 285 |
-| history | 38 |
+| history | 37 |
 | investing | 506 |
-| fiction | 25 |
+| fiction | 23 |
 | other | 54 |
 
-These category totals are filled in after the Nakamoto Library pass; `scripts/validate.py` prints the exact figures. Mentions: **889**. Referenced, not yet verified: **730**. Unresolved items: **738**.
+These category totals are filled in after the Nakamoto Library pass; `scripts/validate.py` prints the exact figures. Mentions: **890**. Referenced, not yet verified: **733**. Unresolved items: **738**.
+
+Summaries and ratings live in [`data/enrichment.json`](data/enrichment.json), keyed by catalogue `id`, and are loaded after the book list. A missing field means it was not found. `fetched_date` is 2026-11-17. `summary` and `summary_source` come from Open Library. `ol_rating_avg`, `ol_rating_count`, `ol_want_to_read`, and `ol_already_read` come from Open Library. `gr_rating_avg`, `gr_rating_count`, and `gr_url` come from Goodreads. Coverage is partial: Goodreads stopped answering after about 160 matches, and Google Books summaries were not fetched because the keyless quota was exhausted. Those gaps can be filled later. Translations of one Goodreads work show the same numbers; the most-rated sort lists the English edition before a translation.
 
 A Nakamoto Library page (nakamotolibrary.org) is evidence that a listed book is about Bitcoin. The page URL is `source_url` for books known from that library, or `also_sources` when a library record was already the main source. Amazon links and ASINs are not stored. An ISBN-10 printed on a Nakamoto page is kept only after it converts to a valid ISBN-13.
 

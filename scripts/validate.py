@@ -39,6 +39,7 @@ EVIDENCE = {
     "fulltext-single",
     "x-post",
     "nakamoto-library",
+    "library-subject",
 }
 CONFIDENCE = {"library-verified", "x-reference-only", "nakamoto-library"}
 REQUIRED = [
@@ -137,8 +138,8 @@ def validate_data() -> tuple[list[str], dict]:
             fail(errors, f"{where} evidence_type {evidence!r} is invalid")
         if confidence not in CONFIDENCE:
             fail(errors, f"{where} confidence {confidence!r} is invalid")
-        if list_name == "referenced" and evidence not in {"x-post", "fulltext-single"}:
-            fail(errors, f"{where} referenced entry needs x-post or single-passage evidence")
+        if list_name == "referenced" and evidence not in {"x-post", "fulltext-single", "library-subject"}:
+            fail(errors, f"{where} referenced entry needs x-post, single-passage, or subject-only evidence")
         if evidence == "nakamoto-library" and "nakamotolibrary.org" not in (book.get("source_url") or ""):
             extras = book.get("also_sources") or []
             if not any("nakamotolibrary.org" in (item.get("url") or "") for item in extras):
@@ -248,6 +249,53 @@ def validate_page(catalogue: dict) -> list[str]:
     print(f"mentions {mentions}")
     print(f"referenced {referenced}")
     print(f"unresolved {len(json.loads(UNRESOLVED_PATH.read_text(encoding='utf-8'))['items'])}")
+    errors.extend(validate_enrichment(catalogue))
+    return errors
+
+
+def validate_enrichment(catalogue: dict) -> list[str]:
+    errors: list[str] = []
+    path = ROOT / "data" / "enrichment.json"
+    if not path.exists():
+        fail(errors, "data/enrichment.json is missing")
+        return errors
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", payload.get("fetched_date") or ""):
+        fail(errors, "enrichment.json fetched_date must be YYYY-MM-DD")
+    entries = payload.get("entries")
+    if not isinstance(entries, dict):
+        fail(errors, "enrichment.json entries must be an object keyed by catalogue id")
+        return errors
+    ids = {book["id"] for book in catalogue["books"]}
+    for key, rec in entries.items():
+        if key not in ids:
+            fail(errors, f"enrichment {key} is not a catalogue id")
+            continue
+        if not isinstance(rec, dict):
+            fail(errors, f"enrichment {key} is not an object")
+            continue
+        summary = rec.get("summary")
+        source = rec.get("summary_source")
+        if summary and (not isinstance(source, str) or not source.startswith("https://openlibrary.org/")):
+            fail(errors, f"enrichment {key} summary needs an Open Library source")
+        if rec.get("gr_rating_count") and (not isinstance(rec.get("gr_url"), str) or not rec["gr_url"].startswith("https://www.goodreads.com/")):
+            fail(errors, f"enrichment {key} Goodreads rating needs a Goodreads URL")
+        for num_key in ("ol_rating_avg", "ol_rating_count", "ol_want_to_read", "ol_already_read", "gr_rating_avg", "gr_rating_count"):
+            value = rec.get(num_key)
+            if value is not None and not isinstance(value, (int, float)):
+                fail(errors, f"enrichment {key} {num_key} must be numeric")
+        blob = json.dumps(rec)
+        if "amazon." in blob:
+            fail(errors, f"enrichment {key} contains an Amazon link")
+    if html_has := True:
+        js = (ROOT / "js" / "catalogue.js").read_text(encoding="utf-8")
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        if 'id="sort"' not in html:
+            fail(errors, "page is missing the sort control")
+        if "data/enrichment.json" not in js:
+            fail(errors, "catalogue.js must load data/enrichment.json")
+        if "gr-count" not in js or "gr-avg" not in js or "ol-want" not in js:
+            fail(errors, "catalogue.js is missing a ratings sort")
     return errors
 
 

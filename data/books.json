@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-17",
-  "sources_note": "About entries are books whose library record, full title, or Nakamoto Library listing (nakamotolibrary.org) shows Bitcoin is the subject. Mentions quote a description, contents list, or at least two full-text passages. Referenced entries are X posts or a single full-text passage and are not fully verified. Google Books was not used; the keyless API returned HTTP 429.",
+  "sources_note": "About entries are books whose library record or Nakamoto Library listing shows Bitcoin is the subject. Mentions quote a description, contents list, or at least two full-text passages. Referenced entries are not fully verified: X posts, a single full-text passage, or a library subject heading that does not show Bitcoin is the book's subject. Summaries and ratings were fetched on 2026-11-17; Goodreads coverage is partial and Google Books summaries were unavailable (quota).",
   "books": [
     {
       "title": "LOS SECRETOS DEL BITCOIN",
@@ -911,24 +911,6 @@
       "evidence_type": "library-record"
     },
     {
-      "title": "Cryptocurrency",
-      "subtitle": null,
-      "authors": [
-        "Paul Vigna"
-      ],
-      "year": 2015,
-      "isbn": "9781847923448",
-      "list": "about",
-      "category": "money-economics",
-      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin.",
-      "source_url": "https://openlibrary.org/works/OL20702882W",
-      "source_label": "Open Library",
-      "language": "eng",
-      "id": "cryptocurrency-2015-vigna",
-      "confidence": "library-verified",
-      "evidence_type": "library-record"
-    },
-    {
       "title": "EVERYTHING BITCOIN in BABY LANGUAGe",
       "subtitle": null,
       "authors": [
@@ -1051,7 +1033,7 @@
       "isbn": "9781250065636",
       "list": "about",
       "category": "money-economics",
-      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin.",
+      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin. The description opens on Bitcoin becoming a buzzword. The same book is also filed as Cryptocurrency (OL20702882W).",
       "source_url": "https://openlibrary.org/works/OL20001821W",
       "source_label": "Open Library",
       "language": "eng",
@@ -1062,6 +1044,10 @@
         {
           "url": "https://nakamotolibrary.org/the-age-of-cryptocurrency",
           "label": "Nakamoto Library"
+        },
+        {
+          "url": "https://openlibrary.org/works/OL20702882W",
+          "label": "Open Library (title variant Cryptocurrency)"
         }
       ]
     },
@@ -17702,15 +17688,15 @@
       ],
       "year": 2023,
       "isbn": "9780241651117",
-      "list": "about",
-      "category": "money-economics",
-      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin.",
+      "list": "referenced",
+      "category": null,
+      "bitcoin_relevance": "Open Library assigns the subject Bitcoin, but the description is the life of Sam Bankman-Fried and the collapse of FTX. No Bitcoin passage was fetched.",
       "source_url": "https://openlibrary.org/works/OL35710736W",
       "source_label": "Open Library",
       "language": "eng",
       "id": "going-infinite-2023-lewis",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-subject"
     },
     {
       "title": "GOLD vs BITCOIN",
@@ -24187,15 +24173,15 @@
       ],
       "year": 2023,
       "isbn": "9781419766398",
-      "list": "about",
-      "category": "history",
-      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin.",
+      "list": "referenced",
+      "category": null,
+      "bitcoin_relevance": "Open Library assigns the subject Bitcoin, but the description is the rise and fall of cryptocurrency generally. No Bitcoin passage was fetched.",
       "source_url": "https://openlibrary.org/works/OL28740486W",
       "source_label": "Open Library",
       "language": "eng",
       "id": "easy-money-2023-mckenzie",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-subject"
     },
     {
       "title": "History Echoes Bitcoin",
@@ -33281,15 +33267,15 @@
       ],
       "year": 2018,
       "isbn": "9781501150982",
-      "list": "about",
-      "category": "fiction",
-      "bitcoin_relevance": "Open Library lists this work under the subject Bitcoin.",
+      "list": "referenced",
+      "category": null,
+      "bitcoin_relevance": "Open Library assigns the subject Bitcoin, but the description is an Ali Reynolds thriller and does not show a Bitcoin passage.",
       "source_url": "https://openlibrary.org/works/OL19730216W",
       "source_label": "Open Library",
       "language": "eng",
       "id": "duel-to-the-death-2018-jance",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "library-subject"
     },
     {
       "title": "Manhwa ro paeunŭn pŭllok ch'ein",
@@ -33573,15 +33559,15 @@
       ],
       "year": 2024,
       "isbn": "9781538721032",
-      "list": "about",
-      "category": "fiction",
+      "list": "mentions",
+      "category": null,
       "bitcoin_relevance": "The edition description says a lost-treasure mystery resurfaces with secrets centering on Bitcoin.",
       "source_url": "https://openlibrary.org/books/OL50210213M",
       "source_label": "Open Library",
       "language": null,
       "id": "atlas-maneuver-2024-berry",
       "confidence": "library-verified",
-      "evidence_type": "library-record"
+      "evidence_type": "description-or-contents"
     },
     {
       "title": "Bitcoin 2140 la Genèse",
